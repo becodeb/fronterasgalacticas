@@ -89,7 +89,99 @@
     <section class="section" id="desafio">
       <div class="section__inner">
         <p class="section__code">01 / Desafío</p>
-        <!-- CONTENIDO:desafio (introducción, desafío, cómo es la superficie lunar, propuesta/objetivo) -->
+        <h2 class="section__title reveal">Ensayar la Luna sin <em>salir de casa</em></h2>
+        <p class="section__lead reveal">Antes de instalar una base en la Luna conviene practicar en algún lugar que se le parezca. Nuestro desafío: encontrar en la Tierra los sitios más parecidos a la superficie lunar para montar ahí bases de prueba.</p>
+
+        <div class="sec-brief reveal">
+          <p class="label">Nuestro objetivo</p>
+          <p class="sec-brief__text">Encontrar sitios lo más parecidos a la Luna para hacer base de pruebas lunares. Para lograrlo llevamos a cabo una extensiva búsqueda y análisis de datos.</p>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Hoja de <em>ruta</em></h3>
+          <ol class="sec-steps">
+            <li class="sec-steps__item">
+              <span class="sec-steps__n mono">01</span>
+              <h4>Elegir la Luna</h4>
+              <p>El primer punto de la hoja de ruta fue decidir si trabajábamos sobre la Luna o sobre Marte. Elegimos la Luna.</p>
+            </li>
+            <li class="sec-steps__item">
+              <span class="sec-steps__n mono">02</span>
+              <h4>Buscar en fuentes oficiales</h4>
+              <p>Rastrear en fuentes oficiales nuevas zonas de la Tierra que compartan condiciones con el lugar elegido.</p>
+            </li>
+            <li class="sec-steps__item">
+              <span class="sec-steps__n mono">03</span>
+              <h4>Distribuir roles</h4>
+              <p>Repartir el trabajo entre el equipo: requisitos, recursos, experimentos, datos y factores del lugar. La bitácora de roles está al final del sitio.</p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Cómo es <em>la Luna</em></h3>
+          <p class="sec-note">La pregunta de partida: ¿cómo es la superficie de la Luna, incluyendo su geología y su topografía, ya sea árida, volcánica o de sal y roca?</p>
+          <div class="grid grid--4 sec-facts">
+            <article class="card sec-fact">
+              <p class="label">Topografía</p>
+              <p>Cráteres, tierras altas, llanuras y mares lunares (lava solidificada).</p>
+            </article>
+            <article class="card sec-fact">
+              <p class="label">Geografía</p>
+              <p>Cristalización de un océano de magma, cuencas y roca pulverizada y fragmentada: el regolito.</p>
+            </article>
+            <article class="card sec-fact">
+              <p class="label">Medio ambiente</p>
+              <p>Exosfera muy tenue, sin atmósfera y sin campo magnético. Recibe radiación solar y micrometeoritos.</p>
+            </article>
+            <article class="card sec-fact sec-fact--thermal">
+              <p class="label">Amplitud térmica</p>
+              <p class="sec-fact__big"><span class="sec-hot">120 °C</span> <span class="sec-fact__sep">/</span> <span class="sec-cold">−246 °C</span></p>
+              <p>Entre el día y la noche lunar. Probalo abajo.</p>
+            </article>
+          </div>
+
+          <div class="sec-thermo card" data-thermo>
+            <div class="sec-thermo__gauge" aria-hidden="true">
+              <div class="sec-thermo__tube"><div class="sec-thermo__fill" data-thermo-fill></div></div>
+              <div class="sec-thermo__bulb" data-thermo-bulb></div>
+              <span class="sec-thermo__tick sec-thermo__tick--hi mono">120</span>
+              <span class="sec-thermo__tick sec-thermo__tick--lo mono">−246</span>
+            </div>
+            <div class="sec-thermo__body">
+              <p class="label">Termómetro lunar</p>
+              <p class="sec-thermo__read"><span data-thermo-value>120</span><span class="sec-thermo__unit">°C</span></p>
+              <p class="sec-thermo__phase mono" data-thermo-phase>Pleno día lunar</p>
+              <label class="sec-thermo__label" for="thermo-range">Del día a la noche</label>
+              <input class="sec-thermo__range" id="thermo-range" type="range" min="0" max="100" step="1" value="0" data-thermo-range aria-describedby="thermo-hint">
+              <div class="sec-thermo__ends mono" aria-hidden="true"><span>Día</span><span>Noche</span></div>
+              <p class="sec-note" id="thermo-hint">Con 366 grados de diferencia, cualquier equipo que viaje a la Luna tiene que soportar los dos extremos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Propuesta y <em>metodología</em></h3>
+          <p class="sec-note">Para encontrar los sitios terrestres más parecidos a la Luna combinamos tres líneas de trabajo.</p>
+          <div class="grid grid--3">
+            <article class="card sec-method">
+              <span class="sec-method__n mono">A</span>
+              <h4>Análisis de datos</h4>
+              <p>Una búsqueda extensiva de cráteres y regiones, y el análisis de sus datos geológicos y topográficos.</p>
+            </article>
+            <article class="card sec-method">
+              <span class="sec-method__n mono">B</span>
+              <h4>Comparación con misiones para bases lunares</h4>
+              <p>Contrastar los sitios con lo que hace falta para instalar bases lunares y con las pruebas que se hacen en la Tierra.</p>
+            </article>
+            <article class="card sec-method">
+              <span class="sec-method__n mono">C</span>
+              <h4>Misiones previas</h4>
+              <p>Revisar qué misiones análogas ya probaron tecnología en entornos terrestres: Apollo, Artemis, D-RATS, NEEMO y VIPER.</p>
+            </article>
+          </div>
+          <p class="sec-note sec-note--end">Resultado final: este sitio web, con secciones para presentar el proyecto, diseños 3D, imágenes, textos y fuentes.</p>
+        </div>
       </div>
     </section>
 
@@ -107,7 +199,187 @@
     <section class="section" id="gemelos">
       <div class="section__inner">
         <p class="section__code">03 / Gemelos</p>
-        <!-- CONTENIDO:gemelos (comparaciones Tierra ↔ Luna) -->
+        <h2 class="section__title reveal">Cráteres <em>gemelos</em></h2>
+        <p class="section__lead reveal">Cada cráter terrestre tiene un par lunar con el que comparte forma, escala o tipo de terreno. Acá están las comparaciones, con las pruebas que la NASA hace en cada tipo de sitio.</p>
+
+        <!-- Asignación Tierra ↔ Luna de las dos primeras tablas: en el PDF los encabezados están mezclados; se usa la indicada por el equipo (corregido). -->
+        <div class="sec-pairs">
+
+          <article class="sec-pair reveal">
+            <div class="sec-pair__side sec-pair__side--earth">
+              <p class="label">Tierra · Mongolia</p>
+              <h3 class="sec-pair__name">Tabun-Khara-Obo</h3>
+              <p class="coords">44°07′ N · 109°39′ E</p>
+              <dl class="sec-dl">
+                <div><dt>Ubicación</dt><dd>Provincia de Dornogovi, desierto de Gobi</dd></div>
+                <div><dt>Altitud</dt><dd>~1.000 a 1.100 m sobre el nivel del mar</dd></div>
+                <div><dt>Diámetro</dt><dd>1,3 km</dd></div>
+                <div><dt>Cresta</dt><dd>20 a 30 m de altura</dd></div>
+                <div><dt>Profundidad</dt><dd>~200 m</dd></div>
+                <div><dt>Edad</dt><dd>Post-Cretácico (entre 150 y 65 millones de años)</dd></div>
+                <div><dt>Suelo y geología</dt><dd>Suelo desértico hiperárido, brechas de impacto, cuarzo chocado y fragmentos de basamento granítico, sin vegetación</dd></div>
+              </dl>
+            </div>
+            <div class="sec-pair__link" aria-hidden="true"><span>↔</span></div>
+            <div class="sec-pair__side sec-pair__side--moon">
+              <p class="label">Luna · Mare Serenitatis</p>
+              <h3 class="sec-pair__name">Linné</h3>
+              <p class="coords">27°45′ N · 11°48′ E</p>
+              <dl class="sec-dl">
+                <div><dt>Ubicación</dt><dd>Borde occidental de Mare Serenitatis</dd></div>
+                <div><dt>Elevación</dt><dd>−2,3 km (respecto al radio medio lunar)</dd></div>
+                <div><dt>Diámetro</dt><dd>2,2 a 2,4 km</dd></div>
+                <div><dt>Profundidad</dt><dd>~600 m</dd></div>
+                <div><dt>Edad</dt><dd>~10 a 20 millones de años (cráter copernicano muy joven)</dd></div>
+                <div><dt>Suelo y geología</dt><dd>Basalto de mare cubierto de regolito fino extremadamente reflectante (alto albedo) y vidrios de impacto</dd></div>
+              </dl>
+            </div>
+            <div class="sec-pair__tests">
+              <p class="label">Pruebas de la NASA en este tipo de sitio</p>
+              <ul class="sec-list">
+                <li><strong>Navegación robótica.</strong> Pruebas de tracción, ascenso y descenso de rovers en pendientes empinadas (más de 20°).</li>
+                <li><strong>Sensores.</strong> Calibración de cámaras, LiDAR y espectrómetros en terreno seco y rocoso.</li>
+                <li><strong>Muestreo.</strong> Ensayos de recolección de rocas en crestas de impacto durante caminatas espaciales (EVAs).</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="sec-pair reveal">
+            <div class="sec-pair__side sec-pair__side--earth">
+              <p class="label">Tierra · Corea del Sur</p>
+              <h3 class="sec-pair__name">Jeokjung–Chogye</h3>
+              <p class="coords">35°33′ N · 128°16′ E</p>
+              <dl class="sec-dl">
+                <div><dt>Ubicación</dt><dd>Condado de Hapcheon, provincia de Gyeongsang del Sur</dd></div>
+                <div><dt>Altitud</dt><dd>Fondo de cuenca: 30 a 50 m s. n. m. · Cresta del borde: 200 a 400 m s. n. m.</dd></div>
+                <div><dt>Diámetro</dt><dd>~7,0 km</dd></div>
+                <div><dt>Profundidad</dt><dd>~400 m de relieve (cubierto por más de 100 m de sedimentos)</dd></div>
+                <div><dt>Edad</dt><dd>~63.000 a 520.000 años (Pleistoceno tardío)</dd></div>
+                <div><dt>Suelo y geología</dt><dd>Conos de choque (shatter cones), brechas de impacto polimícticas, cuarzo con deformación planar (PDFs) y capas sedimentarias</dd></div>
+              </dl>
+            </div>
+            <div class="sec-pair__link" aria-hidden="true"><span>↔</span></div>
+            <div class="sec-pair__side sec-pair__side--moon">
+              <p class="label">Luna · Mare Humorum</p>
+              <h3 class="sec-pair__name">Mersenius C</h3>
+              <p class="coords">19°48′ S · 45°54′ O</p>
+              <dl class="sec-dl">
+                <div><dt>Ubicación</dt><dd>Borde noreste de Mare Humorum</dd></div>
+                <div><dt>Elevación</dt><dd>−1,8 km (respecto al radio medio lunar)</dd></div>
+                <div><dt>Diámetro</dt><dd>14,0 km</dd></div>
+                <div><dt>Profundidad</dt><dd>~1,5 km</dd></div>
+                <div><dt>Edad</dt><dd>~1.000 a 3.000 millones de años (Período Eratosteniano)</dd></div>
+                <div><dt>Suelo y geología</dt><dd>Basalto volcánico de mare, mantos de roca fundida por choque (impact melt), mega regolito y brechas basálticas</dd></div>
+              </dl>
+            </div>
+            <div class="sec-pair__tests">
+              <p class="label">Pruebas de la NASA en este tipo de sitio</p>
+              <ul class="sec-list">
+                <li><strong>Instrucción geológica.</strong> Entrenamiento de astronautas en la identificación visual de shatter cones y rocas alteradas por impactos de alta velocidad.</li>
+                <li><strong>Travesías a escala real.</strong> Simulación de recorridos de exploración de larga distancia con vehículos tripulados.</li>
+                <li><strong>Perforación subsuperficial.</strong> Ensayos de taladros y tomografía geofísica para analizar capas de brechas enterradas bajo el regolito.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="sec-pair reveal">
+            <div class="sec-pair__side sec-pair__side--earth">
+              <p class="label">Tierra · Australia Occidental</p>
+              <h3 class="sec-pair__name">Wolfe Creek</h3>
+              <dl class="sec-dl">
+                <div><dt>Diámetro</dt><dd>0,88 km</dd></div>
+                <div><dt>Edad</dt><dd>~300.000 años</dd></div>
+                <div><dt>Forma</dt><dd>Circular, con borde elevado y fondo relativamente plano; mucho mejor conservado que muchos cráteres terrestres antiguos. Se parece a los cráteres lunares pequeños con forma de cuenco</dd></div>
+              </dl>
+            </div>
+            <div class="sec-pair__link" aria-hidden="true"><span>↔</span></div>
+            <div class="sec-pair__side sec-pair__side--moon">
+              <p class="label">Luna</p>
+              <h3 class="sec-pair__name">Moltke</h3>
+              <p class="sec-pair__text">El equipo lo marcó como el cráter lunar más parecido a Wolfe Creek.</p>
+            </div>
+            <div class="sec-pair__tests">
+              <p class="label">Por qué Wolfe Creek se parece a la Luna</p>
+              <ul class="sec-list">
+                <li><strong>Geometría de tazón simple intacta.</strong> Estructura simétrica con paredes empinadas que se elevan ~35 m sobre la llanura y caen ~50 m hacia el fondo.</li>
+                <li><strong>Terreno árido y abrasivo.</strong> Arena de desierto, fragmentos de roca de impacto rica en hierro (shale balls) y cuarcita simulan las propiedades mecánicas abrasivas del regolito.</li>
+                <li><strong>Pruebas de inclinación y tracción.</strong> Sus pendientes sirven para probar el agarre de las ruedas de rovers, la estabilidad contra vuelcos y el consumo de energía en ascensos y descensos severos.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="sec-pair sec-pair--table reveal">
+            <div class="sec-pair__side sec-pair__side--earth">
+              <p class="label">Tierra · Sudáfrica</p>
+              <h3 class="sec-pair__name">Kalkkop</h3>
+              <p class="sec-pair__text">Comparado rasgo por rasgo con Linné. Los medidores muestran el nivel de similitud.</p>
+            </div>
+            <div class="sec-pair__link" aria-hidden="true"><span>↔</span></div>
+            <div class="sec-pair__side sec-pair__side--moon">
+              <p class="label">Luna · Mare Serenitatis</p>
+              <h3 class="sec-pair__name">Linné</h3>
+              <p class="sec-pair__text">Cráter simple de 2,2 km sobre lavas basálticas.</p>
+            </div>
+            <div class="sec-pair__tests">
+              <div class="table-wrap">
+                <table class="table sec-table">
+                  <caption class="sr-only">Similitud entre Kalkkop y Linné por rasgo</caption>
+                  <thead><tr><th scope="col">Rasgo</th><th scope="col">Kalkkop</th><th scope="col">Linné</th><th scope="col">Similitud</th></tr></thead>
+                  <tbody>
+                    <tr><th scope="row">Origen</th><td>Impacto meteórico confirmado</td><td>Impacto meteórico</td><td><span class="sec-meter" style="--lvl:1" role="img" aria-label="Similitud muy alta"><i></i></span><span class="sec-meter__label mono">Muy alta</span></td></tr>
+                    <tr><th scope="row">Tipo morfológico inicial</th><td>Cráter simple, pequeño, circular/ovalado</td><td>Cráter simple, circular</td><td><span class="sec-meter" style="--lvl:1" role="img" aria-label="Similitud muy alta"><i></i></span><span class="sec-meter__label mono">Muy alta</span></td></tr>
+                    <tr><th scope="row">Diámetro</th><td>~1,2 km según la revisión topográfica de 2026; antes se estimaba ~0,64 km</td><td>2,2 km</td><td><span class="sec-meter" style="--lvl:.75" role="img" aria-label="Similitud alta"><i></i></span><span class="sec-meter__label mono">Alta</span><span class="sec-meter__note">Misma escala de orden kilométrico</span></td></tr>
+                    <tr><th scope="row">Edad</th><td>~250.000 años</td><td>Menos de ~10 millones de años estimados</td><td><span class="sec-meter__note">Ambos jóvenes geológicamente, pero Linné es mucho más fresco</span></td></tr>
+                    <tr><th scope="row">Material objetivo</th><td>Areniscas, lutitas y otras rocas sedimentarias del Karoo</td><td>Lavas basálticas de un mare lunar</td><td><span class="sec-meter" style="--lvl:.375" role="img" aria-label="Similitud entre baja y media"><i></i></span><span class="sec-meter__label mono">Baja–media</span></td></tr>
+                    <tr><th scope="row">Estado actual</th><td>Muy erosionado y relleno por sedimentos de un paleolago; relieve invertido/subsuavizado</td><td>Borde abrupto, bloques, eyecciones y flujos de fundido de impacto preservados</td><td><span class="sec-meter" style="--lvl:.25" role="img" aria-label="Similitud baja"><i></i></span><span class="sec-meter__label mono">Baja en su estado actual</span></td></tr>
+                    <tr><th scope="row">Ambiente</th><td>Semiárido terrestre, gravedad terrestre, atmósfera y erosión hídrica/biológica</td><td>Vacío, 1/6 de gravedad, regolito, radiación y sin erosión por agua o viento</td><td><span class="sec-meter" style="--lvl:.25" role="img" aria-label="Similitud baja"><i></i></span><span class="sec-meter__label mono">Baja</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="sec-h3 sec-h3--mt reveal">Más <em>parejas</em></h3>
+        <!-- corregido: el PDF da "4500 km²" para el domo de Araguainha, pero ese valor aparece repetido en la fila de La Payunia; se omite. Río Cuarto: el PDF da "50 km" y "40 km" sin aclarar qué mide cada uno. -->
+        <div class="grid grid--3 sec-duos">
+          <article class="card sec-duo reveal">
+            <p class="label">Cráter de impacto</p>
+            <p class="sec-duo__pair"><span>Chicxulub</span><i aria-hidden="true">↔</i><span>Korolev</span></p>
+            <p class="sec-duo__data mono">México · 150 km  ↔  Luna · 437 km de diámetro y 5,43 km de profundidad</p>
+            <p>La cuenca lunar de Korolev es el gemelo de gran escala de Chicxulub.</p>
+          </article>
+          <article class="card sec-duo reveal">
+            <p class="label">Campo de cráteres</p>
+            <p class="sec-duo__pair"><span>Bajada del Diablo</span><i aria-hidden="true">↔</i><span>Mare Imbrium</span></p>
+            <p class="sec-duo__data mono">Argentina · 27 × 15 km · 189 cráteres de 100 a 400 m</p>
+            <p>Similar en la forma del terreno a varias zonas de la Luna, y en particular al Mare Imbrium.</p>
+          </article>
+          <article class="card sec-duo reveal">
+            <p class="label">Campo de cráteres</p>
+            <p class="sec-duo__pair"><span>Campo del Cielo</span><i aria-hidden="true">↔</i><span>Campos lunares</span></p>
+            <p class="sec-duo__data mono">Argentina · área de ~20.000 km²</p>
+            <p>Similar a los campos de cráteres de la Luna.</p>
+          </article>
+          <article class="card sec-duo reveal">
+            <p class="label">Cráteres de impacto</p>
+            <p class="sec-duo__pair"><span>Río Cuarto</span><i aria-hidden="true">↔</i><span>Messier</span></p>
+            <p class="sec-duo__data mono">Argentina · dimensiones indicadas: 50 km y 40 km</p>
+            <p>Messier es su cráter gemelo lunar.</p>
+          </article>
+          <article class="card sec-duo reveal">
+            <p class="label">Domo de impacto</p>
+            <p class="sec-duo__pair"><span>Araguainha</span><i aria-hidden="true">↔</i><span>Eratóstenes</span></p>
+            <p class="sec-duo__data mono">Brasil · estructura con domo central</p>
+            <p>Eratóstenes es su cráter gemelo en la Luna.</p>
+          </article>
+          <article class="card sec-duo reveal">
+            <p class="label">Campos de lava</p>
+            <p class="sec-duo__pair"><span>La Payunia</span><i aria-hidden="true">↔</i><span>Mares lunares</span></p>
+            <p class="sec-duo__data mono">Argentina · 4.500 km²</p>
+            <p>Los mares de la Luna son similares, en general, a este ambiente de coladas basálticas.</p>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -115,7 +387,132 @@
     <section class="section" id="kalkkop">
       <div class="section__inner">
         <p class="section__code">04 / Caso de estudio</p>
-        <!-- CONTENIDO:kalkkop -->
+        <h2 class="section__title reveal">Kalkkop, el cráter <em>sin estrenar</em></h2>
+        <p class="section__lead reveal">Un cráter de impacto en el Karoo sudafricano que, hasta donde sabemos, ninguna agencia espacial usó para ensayos. Lo estudiamos a fondo para ver qué se puede (y qué no) practicar ahí.</p>
+
+        <div class="sec-split reveal">
+          <article class="card sec-case">
+            <p class="label">Motivo de selección</p>
+            <p>La mejor combinación de logística y control: está en una finca privada del Karoo semiárido, tiene un anillo crateriforme de ~1,2 km y terreno de baja vegetación. Es prometedor para movilidad, topografía, sensores y operaciones repetibles.</p>
+          </article>
+          <article class="card sec-case sec-case--warn">
+            <p class="label">Obstáculo</p>
+            <p>El cráter está muy relleno y erosionado: es menos fiel a un cráter lunar fresco. Además, requiere un acuerdo con el dueño.</p>
+          </article>
+        </div>
+        <p class="sec-note reveal">La comparación rasgo por rasgo con Linné, su gemelo lunar, está en la sección de gemelos.</p>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Perfil <em>técnico</em></h3>
+          <div class="table-wrap">
+            <table class="table sec-table sec-table--profile">
+              <caption class="sr-only">Perfil técnico del sitio Kalkkop</caption>
+              <thead><tr><th scope="col">Aspecto</th><th scope="col">Hallazgos</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Ubicación</th><td>Karoo oriental, provincia de Eastern Cape, Sudáfrica; aproximadamente 51 km al sudoeste de Graaff-Reinet. El lugar está en terreno privado, por lo que cualquier ingreso, medición o instalación requiere permiso del propietario.</td></tr>
+                <tr><th scope="row">Origen y edad</th><td>Impacto meteórico confirmado, de aproximadamente 250 ± 50 mil años. Se reconocieron brechas de impacto y una pequeña componente meteórica en el material perforado.</td></tr>
+                <tr><th scope="row">Topografía</th><td>La revisión más reciente redefine la estructura como ovalada, de aproximadamente 1,2 km de diámetro. El anillo visible de carbonatos no es el borde original: marca el antiguo margen del lago.</td></tr>
+                <tr><th scope="row">Geología</th><td>El impacto afectó rocas sedimentarias del Supergrupo Karoo (areniscas, lutitas y niveles silíceos). Bajo el relleno hay brechas, cataclasitas y rocas alteradas por choque.</td></tr>
+                <tr><th scope="row">Relleno</th><td>El cráter alojó un paleolago. Se documentan terrazas carbonatadas, depósitos lacustres y hasta unos 90 m de sedimentos en sondeos; por debajo aparece brecha de impacto.</td></tr>
+                <tr><th scope="row">Ambiente actual</th><td>Bioma Nama-Karoo: semiárido, con arbustos bajos y pastos, lluvias estivales muy variables. Es más seco y abierto que muchos paisajes terrestres, pero sigue teniendo atmósfera, agua, fauna, vegetación y erosión.</td></tr>
+                <tr><th scope="row">Recursos geológicos</th><td>Ofrece perfiles de impacto, brechas, sedimentos lacustres y carbonatos para muestreo científico. No hay evidencia de recursos que puedan asumirse como explotables ni de agua disponible para una campaña sin una evaluación hidrogeológica específica.</td></tr>
+                <tr><th scope="row">Recursos logísticos</th><td>Graaff-Reinet es el nodo regional razonable para alojamiento, transporte, víveres y coordinación; no debe suponerse que haya energía, conectividad, caminos internos ni agua en el cráter hasta inspeccionarlos.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="sec-note">La investigación geológica reciente establece el diámetro de ~1,2 km, el carácter erosionado y el papel del paleolago. La perforación de 1992 confirmó el impacto y atravesó relleno, brechas y basamento sedimentario. La NASA mantiene una publicación técnica sobre Kalkkop en su repositorio (NTRS), pero la perforación fue patrocinada por el Servicio Geológico Sudafricano: no hay evidencia pública de que NASA, CONAE, INVAP o VENG hayan operado allí una campaña de pruebas espaciales.</p>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Qué puede aportar a <em>prácticas espaciales</em></h3>
+          <p class="sec-note">Kalkkop es un buen sitio para ensayos de geociencia, navegación y teledetección; no es un análogo completo de una base lunar. Su valor está en ser un cráter de impacto pequeño, degradado y con un subsuelo muy bien estratificado, no en replicar regolito, vacío, radiación o gravedad lunar.</p>
+          <ul class="sec-aptitude">
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Rover y navegación autónoma</h4><span class="sec-meter__label mono">Alta</span></div>
+              <span class="sec-meter" style="--lvl:.75" role="img" aria-label="Aptitud alta"><i></i></span>
+              <p>Modelos digitales de elevación, localización visual, detección de borde, planificación de rutas y retorno seguro desde el fondo del cráter.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Radar de subsuelo y geofísica</h4><span class="sec-meter__label mono">Muy alta</span></div>
+              <span class="sec-meter" style="--lvl:1" role="img" aria-label="Aptitud muy alta"><i></i></span>
+              <p>Comparar georradar, resistividad, magnetometría y gravimetría con testigos ya conocidos: un caso excelente para entrenar algoritmos que infieren estratos ocultos.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Perforación y muestreo robótico</h4><span class="sec-meter__label mono">Alta</span></div>
+              <span class="sec-meter" style="--lvl:.75" role="img" aria-label="Aptitud alta"><i></i></span>
+              <p>Selección de punto de perforación, obtención de núcleos, registro de cadena de custodia, análisis de brechas y planificación científica con control remoto.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Fotogrametría y gemelo digital</h4><span class="sec-meter__label mono">Alta</span></div>
+              <span class="sec-meter" style="--lvl:.75" role="img" aria-label="Aptitud alta"><i></i></span>
+              <p>Generar un modelo 3D multiescala y contrastarlo con mediciones terrestres; útil para gemelos digitales de terreno de misión.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Sensado satelital–terrestre</h4><span class="sec-meter__label mono">Alta</span></div>
+              <span class="sec-meter" style="--lvl:.75" role="img" aria-label="Aptitud alta"><i></i></span>
+              <p>Validar interpretación de relieve, humedad y cambios superficiales con observaciones de campo.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Entrenamiento EVA geológico</h4><span class="sec-meter__label mono">Media–alta</span></div>
+              <span class="sec-meter" style="--lvl:.625" role="img" aria-label="Aptitud media a alta"><i></i></span>
+              <p>Protocolos de observación, toma de muestras, documentación y toma de decisiones científicas bajo tiempo limitado.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Operaciones de comunicaciones</h4><span class="sec-meter__label mono">Media</span></div>
+              <span class="sec-meter" style="--lvl:.5" role="img" aria-label="Aptitud media"><i></i></span>
+              <p>Ensayar pérdida de línea de vista dentro de una depresión y posicionamiento de repetidores. La escala es limitada para una misión de larga distancia.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Movilidad sobre regolito lunar</h4><span class="sec-meter__label mono">Baja</span></div>
+              <span class="sec-meter" style="--lvl:.25" role="img" aria-label="Aptitud baja"><i></i></span>
+              <p>El suelo local no reproduce granulometría, adhesión, abrasividad ni comportamiento electrostático del regolito lunar.</p>
+            </li>
+            <li class="sec-apt">
+              <div class="sec-apt__head"><h4>Vacío, radiación, temperaturas lunares y 1/6 g</h4><span class="sec-meter__label mono">Nula al aire libre</span></div>
+              <span class="sec-meter" style="--lvl:0" role="img" aria-label="Aptitud nula al aire libre"><i></i></span>
+              <p>Requiere cámaras de vacío térmico, fuentes y monitoreo radiológico seguros y sistemas de simulación de gravedad.</p>
+            </li>
+          </ul>
+          <p class="sec-scale mono">Escala de aptitud: Nula · Baja · Media · Alta · Muy alta</p>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Cómo podrían participar las <em>capacidades argentinas</em></h3>
+          <p class="sec-note">No encontramos un proyecto de CONAE, INVAP o VENG en Kalkkop. Sí hay capacidades que, en teoría y mediante un acuerdo internacional, encajan muy bien con un programa de caracterización.</p>
+          <div class="grid grid--3">
+            <article class="card sec-cap">
+              <p class="label">CONAE</p>
+              <p>Sus servicios cubren imágenes y productos geoespaciales, y su marco de aplicaciones incluye geología, mineralogía, hidrología, riesgos y ambiente. Podría aportar metodología de análisis de teledetección y el acceso institucional a productos geoespaciales.</p>
+            </article>
+            <article class="card sec-cap">
+              <p class="label">SAOCOM · INVAP</p>
+              <p>SAOCOM emplea radar SAR polarimétrico de banda L, capaz de observar de día, de noche y con nubes; INVAP fue el contratista principal de plataforma, electrónica de radar e integración y ensayos. Sería pertinente para estudiar cambios superficiales, humedad y deformaciones, aunque no sustituye un georradar de subsuelo instalado en el terreno.</p>
+            </article>
+            <article class="card sec-cap">
+              <p class="label">VENG</p>
+              <p>Opera el Centro de Misión SAOCOM y comercializa globalmente sus imágenes. Un ensayo podría solicitar y contrastar escenas SAR con mediciones de campo, drones y un modelo 3D del cráter.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Campaña mínima y <em>de bajo impacto</em></h3>
+          <ol class="sec-timeline">
+            <li><span class="sec-timeline__n mono">01</span><p>Obtener consentimiento escrito del propietario y definir un perímetro de trabajo sin remover materiales.</p></li>
+            <li><span class="sec-timeline__n mono">02</span><p>Generar un informe ambiental oficial sudafricano con el sistema nacional de sensibilidad ambiental.</p></li>
+            <li><span class="sec-timeline__n mono">03</span><p>Levantar un modelo 3D con dron, GNSS y fotogrametría; usarlo como &ldquo;verdad de terreno&rdquo;.</p></li>
+            <li><span class="sec-timeline__n mono">04</span><p>Ejecutar perfiles no invasivos de georradar, resistividad y magnetometría.</p></li>
+            <li><span class="sec-timeline__n mono">05</span><p>Recolectar datos de rover ligero sobre rutas previamente aprobadas, sin excavación.</p></li>
+            <li><span class="sec-timeline__n mono">06</span><p>Comparar las mediciones in situ con SAR, óptico y modelos de elevación.</p></li>
+            <li><span class="sec-timeline__n mono">07</span><p>Sólo después evaluar perforaciones: serían de alto valor científico, pero requieren autorizaciones, protocolo de patrimonio geológico y restauración del sitio.</p></li>
+          </ol>
+          <p class="sec-note">El requisito ambiental no es opcional: Sudáfrica exige una evaluación mediante su herramienta nacional de cribado para autorizaciones ambientales, que identifica sensibilidad de biodiversidad, patrimonio y otras restricciones. El Nama-Karoo es seco, pero no es estéril: tiene vegetación, fauna y una variabilidad fuerte ligada a las lluvias.</p>
+        </div>
+
+        <aside class="sec-synthesis reveal">
+          <p class="label">En síntesis</p>
+          <p>Kalkkop sería especialmente valioso como laboratorio de cráter degradado y subsuelo oculto. La práctica espacial más sólida allí sería una campaña integrada de rover, geofísica, muestreo y validación satelital; no un ensayo que pretenda simular por sí solo una base lunar completa.</p>
+        </aside>
       </div>
     </section>
 
@@ -123,7 +520,83 @@
     <section class="section" id="recomendados" data-module="ships-route">
       <div class="section__inner">
         <p class="section__code">05 / Recomendados</p>
-        <!-- CONTENIDO:recomendados (los 5 sitios elegidos) -->
+        <h2 class="section__title reveal">Cinco sitios <em>elegidos</em></h2>
+        <p class="section__lead reveal">De todo lo que revisamos, estos son los cinco lugares que recomendamos para instalar bases de prueba lunares: dos en Argentina y tres en Australia.</p>
+
+        <ol class="sec-rank">
+          <li class="sec-rank__item reveal">
+            <span class="sec-rank__n" aria-hidden="true">1</span>
+            <div class="sec-rank__body">
+              <div class="sec-rank__head">
+                <h3 class="sec-rank__name">Bajada del Diablo</h3>
+                <span class="tag tag--impacto">Patagonia, Argentina</span>
+              </div>
+              <dl class="sec-rank__meta">
+                <div><dt>Región</dt><dd>Patagonia central (Chubut)</dd></div>
+                <div><dt>Viabilidad</dt><dd>Muy recomendable para rovers, habitabilidad análoga y pruebas geotécnicas.</dd></div>
+              </dl>
+              <p><span class="label">Por qué destaca</span><br>Su terreno árido, pedregoso y con basaltos expuestos simula de forma sobresaliente la topografía abrasiva de los cráteres y mares lunares. Cuenta con un espacio aéreo extremadamente despejado (tráfico comercial casi nulo) que facilita la gestión de restricciones de vuelo (NOTAMs), además de una densidad demográfica prácticamente nula en cientos de kilómetros a la redonda, que ofrece óptimos márgenes de seguridad.</p>
+            </div>
+          </li>
+          <li class="sec-rank__item reveal">
+            <span class="sec-rank__n" aria-hidden="true">2</span>
+            <div class="sec-rank__body">
+              <div class="sec-rank__head">
+                <h3 class="sec-rank__name">La Payunia</h3>
+                <span class="tag tag--volcanico">Campos de lava · Argentina</span>
+              </div>
+              <dl class="sec-rank__meta">
+                <div><dt>Región</dt><dd>Norte de la Patagonia / sur de Mendoza</dd></div>
+                <div><dt>Viabilidad</dt><dd>Altamente recomendable para análogos lunares visuales y geológicos y pruebas de movilidad.</dd></div>
+              </dl>
+              <p><span class="label">Por qué destaca</span><br>Ofrece uno de los campos volcánicos y coladas de lava basáltica más extensos y visualmente fieles a los mares lunares de todo el hemisferio sur. Al igual que Bajada del Diablo, el espacio aéreo y el aislamiento geográfico son ideales para misiones análogas terrestres y ensayos de resistencia de materiales y trajes espaciales.</p>
+              <p class="sec-rank__note">Su uso se restringe exclusivamente a pruebas científicas y de superficie no invasivas, por su estatus de área protegida.</p>
+            </div>
+          </li>
+          <li class="sec-rank__item reveal">
+            <span class="sec-rank__n" aria-hidden="true">3</span>
+            <div class="sec-rank__body">
+              <div class="sec-rank__head">
+                <h3 class="sec-rank__name">Cráter Acraman</h3>
+                <span class="tag tag--impacto">Oceanía · Australia Meridional</span>
+              </div>
+              <dl class="sec-rank__meta">
+                <div><dt>Región</dt><dd>Gawler Ranges, South Australia</dd></div>
+                <div><dt>Viabilidad</dt><dd>Altamente recomendable como análogo árido remoto para sistemas robóticos.</dd></div>
+              </dl>
+              <p><span class="label">Por qué destaca</span><br>Con unos 90 km de diámetro, este gigantesco cráter ubicado en el interior desértico australiano ofrece un aislamiento absoluto. El tráfico aéreo es nulo y la densidad demográfica es inexistente, lo que simplifica al máximo la autorización de polígonos experimentales y el ensayo de rovers pesados en condiciones de calor y aridez extremas.</p>
+            </div>
+          </li>
+          <li class="sec-rank__item reveal">
+            <span class="sec-rank__n" aria-hidden="true">4</span>
+            <div class="sec-rank__body">
+              <div class="sec-rank__head">
+                <h3 class="sec-rank__name">Cráter Woodleigh</h3>
+                <span class="tag tag--impacto">Oceanía · Australia Occidental</span>
+              </div>
+              <dl class="sec-rank__meta">
+                <div><dt>Región</dt><dd>Carnarvon Basin, Western Australia</dd></div>
+                <div><dt>Viabilidad</dt><dd>Altamente recomendable para pruebas de rovers y sistemas autónomos.</dd></div>
+              </dl>
+              <p><span class="label">Por qué destaca</span><br>Situado en una vasta región de estancias ganaderas con interferencia humana mínima, presenta condiciones ideales para simular el aislamiento operativo de una base de superficie planetaria. Su espacio aéreo superior está completamente despejado para la coordinación de pruebas tecnológicas avanzadas.</p>
+            </div>
+          </li>
+          <li class="sec-rank__item reveal">
+            <span class="sec-rank__n" aria-hidden="true">5</span>
+            <div class="sec-rank__body">
+              <div class="sec-rank__head">
+                <h3 class="sec-rank__name">Cráter Wolfe Creek</h3>
+                <span class="tag tag--impacto">Oceanía · Australia Occidental</span>
+              </div>
+              <dl class="sec-rank__meta">
+                <div><dt>Región</dt><dd>Borde de los desiertos Great Sandy y Tanami</dd></div>
+                <div><dt>Viabilidad</dt><dd>Altamente recomendable para investigación científica y pruebas robóticas pasivas.</dd></div>
+              </dl>
+              <p><span class="label">Por qué destaca</span><br>Es uno de los cráteres de impacto mejor conservados y más nítidos del planeta, con una geometría circular perfecta y un entorno desértico que replica de manera impecable el regolito y los bordes de impacto lunares. Su aislamiento en el interior australiano garantiza total privacidad y baja congestión aeronáutica para misiones de campo tecnológicas.</p>
+            </div>
+          </li>
+        </ol>
+        <div class="ships-route" aria-hidden="true"></div>
       </div>
     </section>
 
@@ -131,7 +604,62 @@
     <section class="section" id="misiones">
       <div class="section__inner">
         <p class="section__code">06 / Misiones análogas</p>
-        <!-- CONTENIDO:misiones -->
+        <h2 class="section__title reveal">Antes de la Luna, <em>ensayos en la Tierra</em></h2>
+        <p class="section__lead reveal">La NASA probó sus misiones lunares en entornos análogos de la Tierra. Esta es la ruta de cada programa: dónde se ensayó, qué entorno lunar simulaba y de dónde sale el dato.</p>
+
+        <ol class="sec-missions">
+          <li class="sec-mission reveal">
+            <div class="sec-mission__head"><span class="sec-mission__n mono">01</span><h3>Programa Apollo</h3><span class="label">Misiones Apollo 11 a 17</span></div>
+            <div class="sec-mission__cols">
+              <div><p class="label">Base en la Tierra</p><p>Cinder Lake Crater Field y Meteor Crater (Flagstaff, Arizona), campos volcánicos de Mauna Kea y Kilauea (Hawái) y el cráter Sudbury (Ontario, Canadá).</p></div>
+              <div class="sec-mission__arrow mono" aria-hidden="true">↔</div>
+              <div><p class="label">Entorno lunar</p><p>Mares lunares y tierras altas: Mare Tranquillitatis en Apollo 11, la formación Fra Mauro en Apollo 14 y el cráter Descartes en Apollo 16.</p></div>
+            </div>
+            <p class="sec-mission__src"><span class="label">Fuente</span>
+              <a href="https://ntrs.nasa.gov/api/citations/20190026783/downloads/20190026783.pdf" target="_blank" rel="noopener">NASA Technical Reports Server: Science Training History of the Apollo Astronauts</a>
+              <a href="https://science.nasa.gov/missions/artemis/behind-the-scenes-of-a-nasa-moonwalk-in-the-arizona-desert/" target="_blank" rel="noopener">NASA Science: Behind the Scenes of a NASA Moonwalk in the Arizona Desert</a></p>
+          </li>
+          <li class="sec-mission reveal">
+            <div class="sec-mission__head"><span class="sec-mission__n mono">02</span><h3>Programa Artemis</h3><span class="label">Superficie · Artemis III/IV</span></div>
+            <div class="sec-mission__cols">
+              <div><p class="label">Base en la Tierra</p><p>San Francisco Volcanic Field y Black Point Lava Flow (Arizona), Nevada National Security Site (Nevada) e isla Devon (cráter Haughton, Canadá).</p></div>
+              <div class="sec-mission__arrow mono" aria-hidden="true">↔</div>
+              <div><p class="label">Entorno lunar</p><p>Región del Polo Sur lunar: terrenos muy craterizados, crestas con iluminación rasante (como Connecting Ridge) y bordes de cráteres con regiones en sombra permanente (como el cráter Shackleton).</p></div>
+            </div>
+            <p class="sec-mission__src"><span class="label">Fuente</span>
+              <a href="https://www.nasa.gov/analog-missions/" target="_blank" rel="noopener">NASA Analog Missions: Artemis Ground Testing</a></p>
+          </li>
+          <li class="sec-mission reveal">
+            <div class="sec-mission__head"><span class="sec-mission__n mono">03</span><h3>Desert RATS / D-RATS</h3><span class="label">Desert Research and Technology Studies</span></div>
+            <div class="sec-mission__cols">
+              <div><p class="label">Base en la Tierra</p><p>Campo de pruebas en Black Point Lava Flow, cerca de Flagstaff, Arizona.</p></div>
+              <div class="sec-mission__arrow mono" aria-hidden="true">↔</div>
+              <div><p class="label">Entorno lunar</p><p>Basaltos lunares, terrenos irregulares de regolito y áreas colindantes a tubos de lava, para pruebas de movilidad con vehículos exploradores (Lunar Terrain Vehicle) y caminatas espaciales simuladas (EVA).</p></div>
+            </div>
+            <p class="sec-mission__src"><span class="label">Fuente</span>
+              <a href="https://ntrs.nasa.gov/citations/20210014298" target="_blank" rel="noopener">NASA Technical Reports Server: Desert Research and Technology Studies (D-RATS)</a></p>
+          </li>
+          <li class="sec-mission reveal">
+            <div class="sec-mission__head"><span class="sec-mission__n mono">04</span><h3>NEEMO</h3><span class="label">NASA Extreme Environment Mission Operations</span></div>
+            <div class="sec-mission__cols">
+              <div><p class="label">Base en la Tierra</p><p>Laboratorio submarino Aquarius Reef Base (Cayo Largo, Florida).</p></div>
+              <div class="sec-mission__arrow mono" aria-hidden="true">↔</div>
+              <div><p class="label">Entorno lunar</p><p>Ambientes de gravedad reducida (1/6 g) para simular operaciones en la superficie lunar, recolección de muestras y uso de herramientas en terrenos complejos.</p></div>
+            </div>
+            <p class="sec-mission__src"><span class="label">Fuente</span>
+              <a href="https://ntrs.nasa.gov/api/citations/20150019627/downloads/20150019627.pdf" target="_blank" rel="noopener">NASA Technical Reports Server: NEEMO Analog Testing</a></p>
+          </li>
+          <li class="sec-mission reveal">
+            <div class="sec-mission__head"><span class="sec-mission__n mono">05</span><h3>Misión VIPER</h3><span class="label">Volatiles Investigating Polar Exploration Rover</span></div>
+            <div class="sec-mission__cols">
+              <div><p class="label">Base en la Tierra</p><p>Laboratorio SLOPE (Simulated Lunar Operations Laboratory) en el Centro de Investigación Glenn de la NASA (Ohio) y terrenos volcánicos de Hawái.</p></div>
+              <div class="sec-mission__arrow mono" aria-hidden="true">↔</div>
+              <div><p class="label">Entorno lunar</p><p>Región montañosa del Polo Sur lunar (específicamente las cercanías del cráter Nobile), orientada a la prospección de hielo de agua en regiones de sombra permanente.</p></div>
+            </div>
+            <p class="sec-mission__src"><span class="label">Fuente</span>
+              <a href="https://www.nasa.gov/wp-content/uploads/2015/02/aerospace-frontiers-may-2020.pdf" target="_blank" rel="noopener">NASA: VIPER Mission Testing at SLOPE Lab (Aerospace Frontiers, mayo 2020)</a></p>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -144,7 +672,111 @@
       </div>
       <div class="base-mount mount mount--tall" id="base-app"></div>
       <div class="section__inner">
-        <!-- CONTENIDO:base (factores clave, recursos, superficie necesaria) -->
+        <div class="sec-block sec-block--first reveal">
+          <h3 class="sec-h3">Factores clave para una <em>base lunar permanente</em></h3>
+          <p class="sec-note">Los factores críticos para establecer y desarrollar una base lunar permanente, a partir del análisis de las fuentes espaciales y de las misiones análogas.</p>
+          <div class="sec-acc" data-acc>
+            <div class="sec-acc__item">
+              <h4 class="sec-acc__h"><button class="sec-acc__btn" type="button" id="acc-b1" aria-expanded="true" aria-controls="acc-p1"><span class="sec-acc__n mono">1</span><span class="sec-acc__t">Caracterización topográfica y geológica del terreno</span><span class="sec-acc__ic" aria-hidden="true"></span></button></h4>
+              <div class="sec-acc__panel" id="acc-p1" role="region" aria-labelledby="acc-b1">
+                <ul class="sec-facts-list">
+                  <li><strong>Topografía y altimetría de precisión.</strong> Determinación de rugosidad, elevación y pendientes para seleccionar sitios seguros de aterrizaje y construcción. <span class="sec-src mono">NASA PDS Imaging Node · NASA Space Apps Challenge 2026</span></li>
+                  <li><strong>Geología y mecánica del suelo.</strong> Caracterización de materiales de superficie, densidad de cráteres y propiedades mecánicas para cimentaciones de infraestructura. <span class="sec-src mono">NASA Space Apps Challenge 2026</span></li>
+                  <li><strong>Estructuras subterráneas (tubos de lava y cuevas).</strong> Evaluación del subsuelo para aprovecharlo como refugio natural contra amenazas del entorno. <span class="sec-src mono">NASA Space Apps Challenge 2026</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="sec-acc__item">
+              <h4 class="sec-acc__h"><button class="sec-acc__btn" type="button" id="acc-b2" aria-expanded="false" aria-controls="acc-p2"><span class="sec-acc__n mono">2</span><span class="sec-acc__t">Prospección de recursos e iluminación</span><span class="sec-acc__ic" aria-hidden="true"></span></button></h4>
+              <div class="sec-acc__panel" id="acc-p2" role="region" aria-labelledby="acc-b2" hidden>
+                <ul class="sec-facts-list">
+                  <li><strong>Mapeo de hielo y permafrost (ISRU).</strong> Localización de agua congelada y volátiles en zonas en sombra permanente para su procesamiento. <span class="sec-src mono">NASA Analog Missions · NASA Planetary Data System (PDS)</span></li>
+                  <li><strong>Condiciones térmicas y de iluminación.</strong> Análisis de la exposición solar constante en picos de luz eterna para generar energía y resistir temperaturas extremas. <span class="sec-src mono">NASA Space Apps Challenge 2026 · NASA Earthdata</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="sec-acc__item">
+              <h4 class="sec-acc__h"><button class="sec-acc__btn" type="button" id="acc-b3" aria-expanded="false" aria-controls="acc-p3"><span class="sec-acc__n mono">3</span><span class="sec-acc__t">Protección ambiental y habitabilidad</span><span class="sec-acc__ic" aria-hidden="true"></span></button></h4>
+              <div class="sec-acc__panel" id="acc-p3" role="region" aria-labelledby="acc-b3" hidden>
+                <ul class="sec-facts-list">
+                  <li><strong>Mitigación y dinámica del polvo.</strong> Control de procesos de erosión, abrasión de trajes y toxicidad del regolito lunar. <span class="sec-src mono">NASA Analog Missions · NASA Space Apps Challenge 2026</span></li>
+                  <li><strong>Protección contra la radiación espacial.</strong> Monitoreo y desarrollo de blindajes frente a partículas solares y rayos cósmicos. <span class="sec-src mono">NASA Analog Missions (NSRL)</span></li>
+                  <li><strong>Control de atmósferas hostiles y descompresión.</strong> Sistemas de prueba en cámaras de presión para evitar la enfermedad de descompresión en paseos espaciales. <span class="sec-src mono">NASA Analog Missions</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="sec-acc__item">
+              <h4 class="sec-acc__h"><button class="sec-acc__btn" type="button" id="acc-b4" aria-expanded="false" aria-controls="acc-p4"><span class="sec-acc__n mono">4</span><span class="sec-acc__t">Factores humanos y bioseguridad</span><span class="sec-acc__ic" aria-hidden="true"></span></button></h4>
+              <div class="sec-acc__panel" id="acc-p4" role="region" aria-labelledby="acc-b4" hidden>
+                <ul class="sec-facts-list">
+                  <li><strong>Soporte de vida en aislamiento y confinamiento.</strong> Evaluación de dinámicas de grupo, salud mental y comportamiento bajo aislamiento extremo. <span class="sec-src mono">NASA Analog Missions (HERA / CHAPEA)</span></li>
+                  <li><strong>Respuesta del cuerpo a campos de gravedad reducida.</strong> Contramedidas biomédicas para contrarrestar los efectos fisiológicos de la baja gravedad y el desequilibrio vestibular. <span class="sec-src mono">NASA Analog Missions (ARGOS / Kraken / :envihab)</span></li>
+                  <li><strong>Extremófilos y biosignaturas.</strong> Estudio de habitabilidad y comportamiento biológico en ambientes extremos. <span class="sec-src mono">NASA Space Apps Challenge 2026</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="sec-acc__item">
+              <h4 class="sec-acc__h"><button class="sec-acc__btn" type="button" id="acc-b5" aria-expanded="false" aria-controls="acc-p5"><span class="sec-acc__n mono">5</span><span class="sec-acc__t">Despliegue tecnológico, logística y transporte</span><span class="sec-acc__ic" aria-hidden="true"></span></button></h4>
+              <div class="sec-acc__panel" id="acc-p5" role="region" aria-labelledby="acc-b5" hidden>
+                <ul class="sec-facts-list">
+                  <li><strong>Operaciones robóticas y navegación en superficie.</strong> Pruebas de movilidad, autonomía e instrumental en entornos análogos de la Tierra. <span class="sec-src mono">NASA Analog Missions · NASA Space Apps Challenge 2026</span></li>
+                  <li><strong>Sistemas de propulsión y transporte de carga.</strong> Desarrollo de vehículos lanzadores y etapas de acceso espacial hacia la base. <span class="sec-src mono">VENG S.A.</span></li>
+                  <li><strong>Infraestructura satelital y sensores espaciales.</strong> Diseño e integración de sistemas satelitales para soporte de observación y telecomunicaciones. <span class="sec-src mono">INVAP</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Recursos <em>necesarios</em></h3>
+          <p class="sec-note">Una base lunar requiere infraestructura y recursos técnicos específicos para garantizar la supervivencia, el resguardo frente al entorno hostil y el desarrollo de pruebas científicas o tecnológicas.</p>
+          <div class="grid grid--3 sec-res">
+            <article class="card sec-resource">
+              <span class="sec-resource__n mono">R1</span>
+              <h4>Energía y suministro eléctrico</h4>
+              <ul class="sec-list">
+                <li><strong>Fuentes híbridas.</strong> Paneles solares (de preferencia en los polos, para aprovechar la luz continua) y reactores nucleares compactos que generen kilovatios o megavatios constantes.</li>
+                <li><strong>Almacenamiento masivo.</strong> Baterías de alta capacidad para sostener las noches lunares, que duran aproximadamente dos semanas terrestres sin luz solar.</li>
+              </ul>
+            </article>
+            <article class="card sec-resource">
+              <span class="sec-resource__n mono">R2</span>
+              <h4>Hábitat y protección física</h4>
+              <ul class="sec-list">
+                <li><strong>Estructuras blindadas o enterradas.</strong> Módulos inflables o rígidos cubiertos con regolito para proteger a tripulaciones y equipos de la radiación cósmica, los rayos solares y los micrometeoritos.</li>
+                <li><strong>Control ambiental (ECLSS).</strong> Soporte vital para regular la presión, reciclar el aire, depurar el dióxido de carbono y mantener la climatización frente a temperaturas extremas.</li>
+                <li><strong>Esclusas de aire.</strong> Cámaras de presurización para entrar y salir y transferir materiales sin perder la atmósfera interna.</li>
+              </ul>
+            </article>
+            <article class="card sec-resource">
+              <span class="sec-resource__n mono">R3</span>
+              <h4>Agua y alimentos</h4>
+              <ul class="sec-list">
+                <li><strong>Extracción de agua.</strong> Cercanía a zonas como el Polo Sur lunar, para extraer el hielo de agua de los cráteres: indispensable para consumo y para producir combustible (hidrógeno y oxígeno).</li>
+                <li><strong>Reciclaje y agricultura.</strong> Circuito cerrado para reciclar más del 90 % del agua, junto con sistemas hidropónicos o cultivos experimentales en suelo lunar.</li>
+              </ul>
+            </article>
+            <article class="card sec-resource">
+              <span class="sec-resource__n mono">R4</span>
+              <h4>Logística, transporte y comunicaciones</h4>
+              <ul class="sec-list">
+                <li><strong>Plataformas de aterrizaje y despegue.</strong> Zonas pavimentadas o acondicionadas (por ejemplo, con materiales consolidados como el hormigón lunar de la ESA) para evitar la proyección dañina de polvo lunar (ejecta).</li>
+                <li><strong>Vehículos y telerrobótica.</strong> Rovers y drones para transportar carga, reconocer el terreno y hacer pruebas remotas.</li>
+                <li><strong>Comunicación y navegación.</strong> Antenas y satélites locales para un enlace continuo con la Tierra y la coordinación en superficie.</li>
+              </ul>
+            </article>
+            <article class="card sec-resource">
+              <span class="sec-resource__n mono">R5</span>
+              <h4>Manufactura e investigación in situ (ISRU)</h4>
+              <ul class="sec-list">
+                <li><strong>Procesamiento de materiales locales.</strong> Extraer metales, silicio y oxígeno directamente del regolito para construir herramientas, repuestos o componentes estructurales en el lugar.</li>
+                <li><strong>Laboratorios de pruebas.</strong> Espacios para ensayar hardware espacial, resistencia de materiales y simulaciones de viajes hacia destinos como Marte.</li>
+              </ul>
+            </article>
+          </div>
+          <p class="sec-note sec-note--end">Según lineamientos de agencias como la NASA y estudios de BBC News Mundo. La mayoría de estas características corresponden a diseños y proyectos en desarrollo: una base lunar permanente plenamente operativa todavía no existe.</p>
+        </div>
       </div>
     </section>
 
@@ -152,7 +784,101 @@
     <section class="section" id="datos">
       <div class="section__inner">
         <p class="section__code">08 / Datos y actividades</p>
-        <!-- CONTENIDO:datos (actividades, datos que busca la NASA, requisitos del sitio, capacidades argentinas, herramientas) -->
+        <h2 class="section__title reveal">Qué se hace y <em>qué se mide</em></h2>
+        <p class="section__lead reveal">Para elegir bien el sitio análogo, las actividades se dividen en simulaciones con tripulación humana (EVA), pruebas robóticas autónomas y experimentos de caracterización in situ (ISRU). Los datos que salen de ahí validan la tecnología y fijan los límites del soporte vital, la movilidad y la prospección geofísica.</p>
+
+        <div class="sec-block sec-block--first reveal">
+          <h3 class="sec-h3">Actividades en <em>la base</em></h3>
+          <div class="grid grid--2 sec-acts">
+            <article class="card sec-act">
+              <span class="sec-act__n mono">01</span>
+              <h4>EVAs y geología de campo</h4>
+              <ul class="sec-list">
+                <li><strong>Identificación y muestreo geológico.</strong> Entrenar a astronautas en reconocer conos de choque, brechas de impacto polimícticas y material fundido por impacto.</li>
+                <li><strong>Travesías a escala real.</strong> Recorridos a pie y en vehículos tripulados por terrenos de alta inclinación (más de 20°), bordes de cráteres y fondos de cuencas, para evaluar consumo metabólico, desgaste físico y protocolos de seguridad.</li>
+                <li><strong>Trajes presurizados.</strong> Movilidad articular, alcance manual y destreza fina al recolectar rocas, usar herramientas e instalar instrumentación.</li>
+              </ul>
+            </article>
+            <article class="card sec-act">
+              <span class="sec-act__n mono">02</span>
+              <h4>Ensayos robóticos y movilidad de rovers</h4>
+              <ul class="sec-list">
+                <li><strong>Pendientes y superficies abrasivas.</strong> Tracción, fricción, ascenso y descenso en paredes empinadas para prevenir vuelcos y medir el consumo de energía sobre superficies de baja cohesión.</li>
+                <li><strong>Mapeo autónomo y telerrobótica.</strong> Calibración de navegación autónoma, cámaras de alta resolución, LiDAR y espectrómetros en entornos secos, rocosos y desestructurados.</li>
+                <li><strong>Navegación a ciegas y pérdida de señal.</strong> Simular la pérdida de línea de visión en depresiones profundas para probar el retorno autónomo seguro y la instalación de repetidores.</li>
+              </ul>
+            </article>
+            <article class="card sec-act">
+              <span class="sec-act__n mono">03</span>
+              <h4>Geofísica subsuperficial y perforación</h4>
+              <ul class="sec-list">
+                <li><strong>Extracción de núcleos.</strong> Taladros mecánicos, robóticos y manuales para recuperar muestras de subsuelo a distintas profundidades sin contaminar las capas inferiores.</li>
+                <li><strong>Prospección del subsuelo.</strong> Georradar (GPR), tomografía de resistividad eléctrica, sismómetros y gravimetría para mapear capas enterradas, estructuras de brechas y posibles acumulaciones de hielo o volátiles.</li>
+              </ul>
+            </article>
+            <article class="card sec-act">
+              <span class="sec-act__n mono">04</span>
+              <h4>Recursos in situ (ISRU) y construcción</h4>
+              <ul class="sec-list">
+                <li><strong>Procesamiento de regolito.</strong> Separación mineral y extracción térmica de volátiles u oxígeno a partir de material análogo.</li>
+                <li><strong>Manejo de polvo (ejecta).</strong> Evaluar la erosión de los propulsores de aterrizaje y probar sinterización o pavimentación de plataformas de alunizaje.</li>
+                <li><strong>Blindaje estructural.</strong> Recubrir módulos inflables o rígidos con regolito como protección térmica y radiológica.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Información y datos críticos <em>a recopilar por la NASA</em></h3>
+          <div class="table-wrap">
+            <table class="table sec-table">
+              <caption class="sr-only">Datos críticos a recopilar por la NASA</caption>
+              <thead><tr><th scope="col">Categoría de datos</th><th scope="col">Parámetros específicos a medir</th><th scope="col">Objetivo de la recopilación</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Mecánica del suelo y regolito</th><td>Granulometría, densidad de empaquetamiento, cohesión, ángulo de fricción y abrasividad.</td><td>Diseñar ruedas de rovers, herramientas de corte y calzado de trajes espaciales que resistan el desgaste sin perder tracción.</td></tr>
+                <tr><th scope="row">Estratigrafía y geofísica</th><td>Perfiles de velocidad sísmica, permitividad dieléctrica del subsuelo y densidad de capas de brechas.</td><td>Validar algoritmos de interpretación de radar de subsuelo para localizar depósitos de agua helada y cavidades subterráneas.</td></tr>
+                <tr><th scope="row">Rendimiento de sensores</th><td>Nivel de ruido e interferencia en cámaras, LiDAR y espectrómetros expuestos a polvo y luz directa.</td><td>Calibrar los sistemas de visión de rovers autónomos antes de su integración final en la nave.</td></tr>
+                <tr><th scope="row">Factores humanos y soporte vital</th><td>Tasa metabólica, niveles de estrés, consumo de O<sub>2</sub>, producción de CO<sub>2</sub> y fatiga neuromuscular en simulaciones prolongadas.</td><td>Dimensionar la autonomía de los sistemas de soporte vital (ECLSS) y ajustar las rutinas de trabajo diario.</td></tr>
+                <tr><th scope="row">Comunicaciones y redes</th><td>Pérdida de potencia de señal por atenuación del terreno, dispersión en bordes rocosos y latencia simulada.</td><td>Diseñar la topología de la red de antenas y repetidores necesarios para mantener enlace constante con el centro de control.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Requisitos físicos del <em>sitio análogo</em></h3>
+          <p class="sec-note">Para satisfacer esas necesidades operativas, el lugar elegido debe cumplir cuatro condiciones geofísicas clave.</p>
+          <ol class="grid grid--4 sec-reqs">
+            <li class="card sec-req"><span class="sec-req__n mono">1</span><h4>Topografía de cráter simple o complejo</h4><p>Una cuenca definida con paredes empinadas (más de 20°) y borde elevado, para simular el comportamiento dinámico de los cráteres lunares.</p></li>
+            <li class="card sec-req"><span class="sec-req__n mono">2</span><h4>Geología de impacto o volcánica árida</h4><p>Abundancia de roca fragmentada, brechas, basaltos o sedimentos secos extremadamente abrasivos que repliquen la respuesta mecánica del regolito.</p></li>
+            <li class="card sec-req"><span class="sec-req__n mono">3</span><h4>Subsuelo estratificado conocido</h4><p>Un terreno cuya composición profunda esté bien documentada (mediante perforaciones previas) para contrastar y validar la precisión del georradar (GPR).</p></li>
+            <li class="card sec-req"><span class="sec-req__n mono">4</span><h4>Depresión con aislamiento de radiofrecuencia</h4><p>Un relieve que permita simular sombras de comunicación (Line-of-Sight) y evaluar la gestión robótica autónoma.</p></li>
+          </ol>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Capacidades <em>argentinas</em></h3>
+          <div class="grid grid--4">
+            <article class="card sec-cap"><p class="label">CONAE</p><p>Imágenes y productos geoespaciales para geología, mineralogía, hidrología, riesgos y ambiente.</p></article>
+            <article class="card sec-cap"><p class="label">INVAP</p><p>Contratista principal de la CONAE, líder en el diseño, construcción, prueba, lanzamiento y operación de satélites, como la serie ARSAT y SAOCOM.</p></article>
+            <article class="card sec-cap"><p class="label">VENG</p><p>Empresa de alta tecnología vinculada a la actividad espacial: servicios de lanzamiento, segmentos de terreno, información satelital y componentes electrónicos.</p></article>
+            <article class="card sec-cap"><p class="label">ARSAT</p><p>Empresa estatal de telecomunicaciones, operadora de la flota satelital argentina.</p></article>
+          </div>
+        </div>
+
+        <div class="sec-block reveal">
+          <h3 class="sec-h3">Herramientas <em>que usamos</em></h3>
+          <ul class="sec-chips">
+            <li><strong>NASA PDS</strong><span>Planetary Data System: acceso a observaciones de la Luna y Marte.</span></li>
+            <li><strong>LRO</strong><span>Lunar Reconnaissance Orbiter: datos de topografía, temperatura y regolito de la Luna.</span></li>
+            <li><strong>NASA Earthdata</strong><span>Datos de observación de la Tierra, entre ellos condiciones térmicas y de iluminación.</span></li>
+            <li><strong>Worldview</strong><span>Visualizador de imágenes satelitales de la Tierra.</span></li>
+            <li><strong>USGS Gazetteer</strong><span>Nomenclatura planetaria oficial: coordenadas, diámetros y mapas de cráteres.</span></li>
+            <li><strong>JPL Photojournal</strong><span>Imágenes originales de las sondas Galileo, Voyager y LRO.</span></li>
+            <li><strong>Europa Clipper</strong><span>Página de la misión a Europa, con mapas e información de instrumentos.</span></li>
+            <li><strong>NotebookLM</strong><span>Cuaderno de trabajo del equipo para organizar fuentes.</span></li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -160,7 +886,58 @@
     <section class="section" id="fuentes">
       <div class="section__inner">
         <p class="section__code">09 / Fuentes</p>
-        <!-- CONTENIDO:fuentes -->
+        <h2 class="section__title reveal">De dónde <em>sale todo</em></h2>
+        <p class="section__lead reveal">Las fuentes que usamos, agrupadas por tema. Todos los enlaces abren en una pestaña nueva.</p>
+
+        <div class="sec-sources">
+          <section class="sec-src-group reveal" aria-labelledby="src-ag">
+            <h3 class="label" id="src-ag">Agencias y empresas</h3>
+            <ul class="sec-links">
+              <li><a href="https://www.argentina.gob.ar/ciencia/conae" target="_blank" rel="noopener"><span>CONAE</span><small>Comisión Nacional de Actividades Espaciales</small></a></li>
+              <li><a href="https://www.invap.com.ar/" target="_blank" rel="noopener"><span>INVAP</span><small>Contratista principal de la CONAE; serie ARSAT y SAOCOM</small></a></li>
+              <li><a href="https://www.veng.com.ar/" target="_blank" rel="noopener"><span>VENG</span><small>Lanzadores, segmento terreno e información satelital</small></a></li>
+              <li><a href="https://www.arsat.com.ar/" target="_blank" rel="noopener"><span>ARSAT</span><small>Operadora de la flota satelital argentina</small></a></li>
+            </ul>
+          </section>
+
+          <section class="sec-src-group reveal" aria-labelledby="src-nasa">
+            <h3 class="label" id="src-nasa">NASA y bases de datos planetarias</h3>
+            <ul class="sec-links">
+              <li><a href="https://pds.nasa.gov/" target="_blank" rel="noopener"><span>NASA Planetary Data System</span><small>Observaciones de la Luna y Marte</small></a></li>
+              <li><a href="https://pds.nasa.gov/data/pds4/releases/geo/artemis2_mission-20261007/" target="_blank" rel="noopener"><span>PDS: datos geocientíficos de Artemis II</span><small>Publicación del 7/10/2026</small></a></li>
+              <li><a href="https://pds-geosciences.wustl.edu/missions/artemis2/index.htm" target="_blank" rel="noopener"><span>PDS Geosciences Node: Artemis II</span><small>Washington University en St. Louis</small></a></li>
+              <li><a href="https://science.nasa.gov/mission/lro/" target="_blank" rel="noopener"><span>Lunar Reconnaissance Orbiter (LRO)</span><small>Topografía, temperatura y regolito de la Luna</small></a></li>
+              <li><a href="https://www.earthdata.nasa.gov/" target="_blank" rel="noopener"><span>NASA Earthdata</span><small>Datos de observación de la Tierra</small></a></li>
+              <li><a href="https://worldview.earthdata.nasa.gov/" target="_blank" rel="noopener"><span>NASA Worldview</span><small>Imágenes satelitales de la Tierra</small></a></li>
+              <li><a href="https://planetarynames.wr.usgs.gov/" target="_blank" rel="noopener"><span>USGS Gazetteer of Planetary Nomenclature</span><small>Base oficial del USGS y la Unión Astronómica Internacional</small></a></li>
+              <li><a href="https://photojournal.jpl.nasa.gov/" target="_blank" rel="noopener"><span>NASA JPL Photojournal</span><small>Imágenes de Galileo, Voyager y LRO</small></a></li>
+              <li><a href="https://science.nasa.gov/mission/europa-clipper/" target="_blank" rel="noopener"><span>NASA Europa Clipper</span><small>Página oficial de la misión</small></a></li>
+              <li><a href="https://www.spaceappschallenge.org/" target="_blank" rel="noopener"><span>NASA Space Apps Challenge</span><small>Instrucciones del desafío</small></a></li>
+            </ul>
+          </section>
+
+          <section class="sec-src-group reveal" aria-labelledby="src-mis">
+            <h3 class="label" id="src-mis">Misiones análogas</h3>
+            <ul class="sec-links">
+              <li><a href="https://ntrs.nasa.gov/api/citations/20190026783/downloads/20190026783.pdf" target="_blank" rel="noopener"><span>Apollo: Science Training History of the Apollo Astronauts</span><small>NASA Technical Reports Server (PDF)</small></a></li>
+              <li><a href="https://science.nasa.gov/missions/artemis/behind-the-scenes-of-a-nasa-moonwalk-in-the-arizona-desert/" target="_blank" rel="noopener"><span>Apollo: Behind the Scenes of a NASA Moonwalk in the Arizona Desert</span><small>NASA Science</small></a></li>
+              <li><a href="https://www.nasa.gov/analog-missions/" target="_blank" rel="noopener"><span>Artemis: NASA Analog Missions</span><small>Artemis Ground Testing</small></a></li>
+              <li><a href="https://ntrs.nasa.gov/citations/20210014298" target="_blank" rel="noopener"><span>Desert RATS: Desert Research and Technology Studies</span><small>NASA Technical Reports Server</small></a></li>
+              <li><a href="https://ntrs.nasa.gov/api/citations/20150019627/downloads/20150019627.pdf" target="_blank" rel="noopener"><span>NEEMO: Analog Testing</span><small>NASA Technical Reports Server (PDF)</small></a></li>
+              <li><a href="https://www.nasa.gov/wp-content/uploads/2015/02/aerospace-frontiers-may-2020.pdf" target="_blank" rel="noopener"><span>VIPER: Mission Testing at SLOPE Lab</span><small>NASA, Aerospace Frontiers (PDF)</small></a></li>
+            </ul>
+          </section>
+
+          <section class="sec-src-group reveal" aria-labelledby="src-est">
+            <h3 class="label" id="src-est">Estudios y documentos de trabajo</h3>
+            <ul class="sec-links">
+              <li><a href="https://docs.google.com/document/d/1MpHJX2R0UcRTAqKDRnSDyGnWrBJGUjEi6ab7EtdBkfA/edit?tab=t.0" target="_blank" rel="noopener"><span>Resumen de información de todos los cráteres</span><small>Documento del equipo</small></a></li>
+              <li><a href="https://docs.google.com/spreadsheets/d/1V-UJNb1URjtzndk5xDUKU9ofgt_Nxg3Z55358sJZq5Q/edit?gid=1583890552#gid=1583890552" target="_blank" rel="noopener"><span>Resumen de cráteres, planilla</span><small>Hoja de cálculo del equipo</small></a></li>
+              <li><a href="https://notebook.google.com/notebook/9aa3c6c2-8bdf-4945-869f-d2d15568aebb?addSource=true" target="_blank" rel="noopener"><span>Cuaderno de NotebookLM</span><small>Fuentes organizadas por el equipo</small></a></li>
+            </ul>
+            <p class="sec-note sec-note--tight">También consultamos, sin enlace directo en nuestras notas: Cambridge Core y PubMed Central (cráteres polares), ScienceDirect y Journal of African Earth Sciences (estudios de impactos), el estudio geomorfológico y el estudio de testigos de Kalkkop, SANBI (Nama-Karoo), BBC News Mundo, Xataka y el video de la NASA &ldquo;Europa Clipper: Exploring Jupiter&rsquo;s Ocean Moon&rdquo;.</p>
+          </section>
+        </div>
       </div>
     </section>
 
@@ -168,7 +945,36 @@
     <section class="section" id="creditos">
       <div class="section__inner">
         <p class="section__code">10 / Equipo</p>
-        <!-- CONTENIDO:creditos -->
+        <h2 class="section__title reveal">Equipo <em>La LUNA</em></h2>
+        <p class="section__lead reveal">Seis personas, una misión y un montón de pestañas abiertas. Esto es lo que armamos para el NASA Space Apps Challenge 2026.</p>
+
+        <div class="sec-credits">
+          <div class="sec-team reveal">
+            <p class="label">Miembros</p>
+            <ul class="sec-team__list">
+              <li>Elisa Cadoppi</li>
+              <li>Santiago Boezio</li>
+              <li>Matías Elena</li>
+              <li>Santiago Marín</li>
+              <li>Valentina Battistela</li>
+              <li>Matías Llansó <span class="sec-team__c mono">( C )</span></li>
+            </ul>
+          </div>
+
+          <div class="sec-roles reveal">
+            <p class="label">Bitácora de roles</p>
+            <ol class="sec-roles__list">
+              <li><span class="sec-roles__who mono">Mati Petit</span><span class="sec-roles__what">Requisitos para crear una base lunar</span></li>
+              <li><span class="sec-roles__who mono">Marín</span><span class="sec-roles__what">Recursos</span></li>
+              <li><span class="sec-roles__who mono">Beeg Mati</span><span class="sec-roles__what">Tipos de experimentos dentro de bases lunares</span></li>
+              <li><span class="sec-roles__who mono">Tina</span><span class="sec-roles__what">Organizar los datos ya obtenidos</span></li>
+              <li><span class="sec-roles__who mono">Boezio</span><span class="sec-roles__what">Factores alternativos que afectan el lugar de la base: rutas aéreas, infraestructura, estatales o privadas</span></li>
+            </ol>
+            <p class="sec-note sec-note--tight">Los apodos están tal como figuran en nuestra bitácora original.</p>
+          </div>
+        </div>
+
+        <p class="sec-sign reveal">Gracias por recorrer el sitio. Si algún día se levanta una base lunar, ojalá haya pasado antes por un desierto bien elegido.</p>
       </div>
     </section>
   </main>
