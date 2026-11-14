@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fronteras Galácticas — La Luna en la Tierra</title>
+  <meta name="description" content="Fronteras Galácticas: buscamos en la Tierra los lugares que más se parecen a la Luna para instalar bases de prueba lunares. Equipo La LUNA · NASA Space Apps Challenge 2026.">
+  <meta name="theme-color" content="#05060A">
+  <meta property="og:title" content="Fronteras Galácticas">
+  <meta property="og:description" content="Los lugares de la Tierra que más se parecen a la Luna. NASA Space Apps Challenge 2026 · Equipo La LUNA.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fronterasgalacticas.becode.com.ar/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/worlds.css">
+  <link rel="stylesheet" href="css/ships.css">
+  <link rel="stylesheet" href="css/base-lunar.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Intro / cuenta regresiva (lo maneja js/hero.js) -->
+  <div id="intro" class="hero-intro" aria-hidden="true"></div>
+
+  <!-- Capa de naves (fija, sobre todo el sitio; la maneja js/ships.js) -->
+  <div id="ships-layer" class="ships-layer" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#inicio" aria-label="Fronteras Galácticas, ir al inicio">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#ECE8DF" stroke-width="1.2"/><path d="M12 3a9 9 0 0 0 0 18 6.5 9 0 0 1 0-18Z" fill="#ECE8DF"/><circle cx="19.5" cy="5" r="1.6" fill="#FF5B1F"/></svg>
+      Fronteras Galácticas
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links">Menú</button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#desafio">Desafío</a></li>
+      <li><a href="#atlas">Atlas</a></li>
+      <li><a href="#gemelos">Gemelos</a></li>
+      <li><a href="#kalkkop">Kalkkop</a></li>
+      <li><a href="#recomendados">Top 5</a></li>
+      <li><a href="#misiones">Misiones</a></li>
+      <li><a href="#base">Base lunar</a></li>
+      <li><a href="#datos">Datos</a></li>
+      <li><a href="#fuentes">Fuentes</a></li>
+      <li><a href="#creditos">Equipo</a></li>
+    </ul>
+  </header>
+
+  <main id="contenido">
+
+    <!-- 00 · HERO (js/hero.js monta el canvas 3D dentro de #hero-stage) -->
+    <section class="hero" id="inicio" data-module="hero">
+      <div class="hero-stage mount" id="hero-stage"></div>
+      <div class="hero-copy">
+        <p class="section__code">NASA Space Apps Challenge 2026 · Equipo La LUNA</p>
+        <h1 class="hero-title">Fronteras <em>Galácticas</em></h1>
+        <p class="hero-sub">Buscamos en la Tierra los lugares que más se parecen a la Luna, para que las próximas bases lunares se ensayen acá antes de viajar allá.</p>
+        <div class="hero-ctas">
+          <a class="btn btn--signal" href="#atlas">Explorar el atlas</a>
+          <a class="btn" href="#desafio">Ver el desafío</a>
+        </div>
+      </div>
+      <div class="hero-telemetry" aria-hidden="true">
+        <span class="coords">384.400 KM · TIERRA → LUNA</span>
+        <span class="coords">1/6 g · SIN ATMÓSFERA · 120 °C / −246 °C</span>
+      </div>
+    </section>
+
+    <!-- 01 · DESAFÍO -->
+    <section class="section" id="desafio">
+      <div class="section__inner">
+        <p class="section__code">01 / Desafío</p>
+        <!-- CONTENIDO:desafio (introducción, desafío, cómo es la superficie lunar, propuesta/objetivo) -->
+      </div>
+    </section>
+
+    <!-- 02 · ATLAS DE MUNDOS (js/worlds.js) -->
+    <section class="section section--flush" id="atlas" data-module="worlds">
+      <div class="section__inner">
+        <p class="section__code">02 / Atlas</p>
+        <h2 class="section__title">Un atlas de <em>tres mundos</em></h2>
+        <p class="section__lead">Girá la Tierra, la Luna y Europa. Cada punto es un cráter o una región que estudiamos: tocalo para ver sus datos y su gemelo lunar.</p>
+      </div>
+      <div class="worlds-mount mount mount--tall" id="worlds-app"></div>
+    </section>
+
+    <!-- 03 · GEMELOS -->
+    <section class="section" id="gemelos">
+      <div class="section__inner">
+        <p class="section__code">03 / Gemelos</p>
+        <!-- CONTENIDO:gemelos (comparaciones Tierra ↔ Luna) -->
+      </div>
+    </section>
+
+    <!-- 04 · KALKKOP -->
+    <section class="section" id="kalkkop">
+      <div class="section__inner">
+        <p class="section__code">04 / Caso de estudio</p>
+        <!-- CONTENIDO:kalkkop -->
+      </div>
+    </section>
+
+    <!-- 05 · TOP 5 -->
+    <section class="section" id="recomendados" data-module="ships-route">
+      <div class="section__inner">
+        <p class="section__code">05 / Recomendados</p>
+        <!-- CONTENIDO:recomendados (los 5 sitios elegidos) -->
+      </div>
+    </section>
+
+    <!-- 06 · MISIONES ANÁLOGAS -->
+    <section class="section" id="misiones">
+      <div class="section__inner">
+        <p class="section__code">06 / Misiones análogas</p>
+        <!-- CONTENIDO:misiones -->
+      </div>
+    </section>
+
+    <!-- 07 · BASE LUNAR (js/base.js) -->
+    <section class="section" id="base" data-module="base">
+      <div class="section__inner">
+        <p class="section__code">07 / Base lunar</p>
+        <h2 class="section__title">Armá tu <em>base lunar</em></h2>
+        <p class="section__lead">Una base lunar no es un edificio: es un sistema que produce energía, recicla aire y agua, protege de la radiación y permite investigar. Recorré sus partes y cómo se construye por etapas.</p>
+      </div>
+      <div class="base-mount mount mount--tall" id="base-app"></div>
+      <div class="section__inner">
+        <!-- CONTENIDO:base (factores clave, recursos, superficie necesaria) -->
+      </div>
+    </section>
+
+    <!-- 08 · DATOS -->
+    <section class="section" id="datos">
+      <div class="section__inner">
+        <p class="section__code">08 / Datos y actividades</p>
+        <!-- CONTENIDO:datos (actividades, datos que busca la NASA, requisitos del sitio, capacidades argentinas, herramientas) -->
+      </div>
+    </section>
+
+    <!-- 09 · FUENTES -->
+    <section class="section" id="fuentes">
+      <div class="section__inner">
+        <p class="section__code">09 / Fuentes</p>
+        <!-- CONTENIDO:fuentes -->
+      </div>
+    </section>
+
+    <!-- 10 · CRÉDITOS -->
+    <section class="section" id="creditos">
+      <div class="section__inner">
+        <p class="section__code">10 / Equipo</p>
+        <!-- CONTENIDO:creditos -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>Fronteras Galácticas · Equipo La LUNA</span>
+      <span>NASA Space Apps Challenge 2026</span>
+      <a href="#inicio">Volver al despegue ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

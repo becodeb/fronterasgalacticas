@@ -1,0 +1,1723 @@
+Space App Challenge
+
+Challenge
+
+Members
+
+Hoja de ruta
+
+    - Elegir si hacemos la Luna o Marte
+    - Buscar en fuentes oficiales nuevas zonas que compartan condiciones con el
+
+        lugar elegido
+    - Distribuir roles
+
+    - ¿Cómo es la superficie de la luna? esto incluyendo su geología, topografía,
+        Árido, volcánico o de sal y roca.
+
+Superficie de la luna:
+     Topografía: cráteres, tierras altas, llanuras, mares lunares (lava solidificada)
+     Geografía: Cristalización de un océano de magma, cuencas y roca pulverizada
+        y fragmentada (regolito)
+     Medio ambiente: Exosfera muy tenue, sin atmósfera, no tiene campo
+        magnético, recibe radiación solar y micrometeoritos,
+     Amplitud térmica: 120 - (-246) Celsius
+https://notebook.google.com/notebook/9aa3c6c2-8bdf-4945-869f-d2d15568aebb?addSourc
+e=true:
+
+    1. INVAP: Contratista principal de la CONAE, líder en el diseño, construcción,
+         prueba, lanzamiento y operación de satélites (como la serie ARSAT y
+         SAOCOM).
+
+    2. VENG: Empresa de alta tecnología vinculada a la actividad espacial,
+         encargada de servicios de lanzamiento, segmentos de terreno, información
+         satelital y componentes electrónicos.
+
+    3. ARSAT: Empresa estatal de telecomunicaciones operadora de la flota
+         satelital argentina.
+
+    4. Lunar reconnaissance Orbiter
+    5. Planetary Data
+    6. Analog Missions
+    7. NASA Earthdata
+    8. Space APP Challenges - Challenge instructions
+    9. CONAE
+Space App Challenge
+
+     La LUNA
+
+Miembros:
+
+     Elisa Cadoppi
+     Santiago Boezio
+     Matias Elena
+     Santiago Marin
+     Valentina Battistela
+
+                Matías Llansó ( C )
+
+Índice
+
+1. Introducción
+2. Desafío
+3. Propuesta
+4. Herramientas
+5. Implementación
+6. Fuentes
+7. Créditos
+
+                                                                                                                          1
+Space App Challenge
+
+Introducción
+
+                                                                                                                          2
+                                                                        Space App Challenge - Polos
+
+    Cráteres registrados en
+                los polos
+
+                    Polo Norte
+
+Nombre    Ubicación Diámetro  Área       Antigüeda  Latitud    Longitud
+del                           Aproximad  d
+cráter                        a
+
+Avak      Alaska,   12km      1132       100        71,240° N 156,502°
+          EE. UU.                        millones                        O
+                                         de años
+
+Beyenchim Siberia, 8km        502        Entre 1,8  71,061° N  121,687°
+e-Salaant Rusia                          y 66                  E
+in                                       millones
+                                         de años
+
+Chukcha   Siberia, 6km        282        Menos de   75,700° N 97,800° E
+          Rusia                          70
+                                         millones
+                                         de años
+
+El'gygytg Chukotka, 18km      2542       3,58       67,500° N 172,083°
+                                         millones                        E
+yn        Rusia                          de años
+
+Haughton  Isla      24km      4522       31,04      75,378° N 89,654° O
+Hiwatha   Devon,                         millones
+          Canadá                         de años
+
+          Groenland 31km      7552       57,99      78,72° N   66,3° O
+          ia                             millones
+                                         de años
+
+Kara      Rusia     65km      3.3182     70,3       69,1° N    64,2° E
+                                         millones
+                                         de años
+
+Mjølnir   Mar de    40km      1.2572     Aproximad  73,492° N  29,019° E
+          Barents,                       amente
+          Noruega                        143
+                                         millones
+                                         de años
+
+Popigai   Siberia,  100km     7.8542     Aproximad  71,650° N  111,183°
+          Rusia                          amente                E
+                                         35,7
+
+                                                                            1
+                             Space App Challenge - Polos
+
+                             millones
+                             de años
+
+Tunnunik Canadá  25km  4912  Menos de   72,48° N   113,97° O
+                       4912  350
+                             millones
+                             de años
+
+Ust-Kara Rusia   25km        Aproximad  69,300° N  65,300° E
+                             amente 73
+                             millones
+                             de años
+
+1. Ross -- Antártida
+
+Tamaño: 550 km de diámetro.
+
+Resumen: Enorme estructura situada en el mar de Ross. Se ha
+propuesto que fue producida por un impacto extraterrestre, pero no
+hay pruebas suficientes para confirmarlo.
+
+Clasificación: Natural, de origen desconocido. Posible impacto
+meteorítico, no confirmado como volcánico.
+
+2. Wilkes Land -- Antártida
+
+Tamaño: 485 km de diámetro.
+
+Resumen: Gran anomalía geológica ubicada debajo del hielo
+antártico. Los científicos investigan si fue causada por un
+meteorito o por procesos geológicos internos.
+
+Cambridge Core
+Clasificación: Natural, de origen no determinado. Existen
+hipótesis de impacto, actividad ígnea y otros procesos geológicos.
+
+3. Popigai -- Ártico
+
+Tamaño: 100 km de diámetro.
+Resumen: Gigantesco cráter de Siberia formado hace aproximadamente
+35,7 millones de años por el impacto de un cuerpo extraterrestre.
+Clasificación: Natural, de impacto meteorítico confirmado. No
+volcánico.
+
+4. Bowers -- Antártida
+
+Tamaño: 100 km de diámetro.
+
+                                                              2
+                                                                          Space App Challenge - Polos
+
+Resumen: Estructura antártica propuesta como posible cráter de
+impacto. Su formación y antigüedad todavía no se conocen con
+certeza.
+Clasificación: Natural, de origen desconocido. No está confirmado
+que sea meteorítico ni volcánico.
+
+5. Kara -- Ártico
+
+Tamaño: 65 km de diámetro.
+Resumen: Cráter situado en Rusia, originado hace aproximadamente
+70 millones de años por un gran impacto extraterrestre.
+Clasificación: Natural, de impacto meteorítico confirmado. No
+volcánico.
+
+6. Mjølnir (Jhonatan) -- Ártico
+
+Tamaño: 40 km de diámetro.
+Resumen: Cráter submarino del mar de Barents, formado hace
+aproximadamente 143 millones de años. Se encuentra enterrado bajo
+sedimentos marinos.
+Clasificación: Natural, de impacto meteorítico confirmado. No
+volcánico.
+
+7. Hiawatha -- Ártico
+
+Tamaño: 31 km de diámetro.
+Resumen: Estructura localizada debajo de un glaciar de
+Groenlandia. Se formó hace aproximadamente 58 millones de años por
+un impacto de asteroide.
+
+PubMed Central (PMC)
+Clasificación: Natural, de impacto meteorítico. No volcánico.
+
+8. Tunnunik -- Ártico
+
+Tamaño: 25 km de diámetro.
+Resumen: Cráter ubicado en Canadá, formado por un impacto
+extraterrestre hace millones de años. Actualmente presenta una
+importante erosión.
+Clasificación: Natural, de impacto meteorítico. No es volcánico.
+
+                                                                                                                          3
+                                                                          Space App Challenge - Polos
+
+9. Ust-Kara -- Ártico
+
+Tamaño: 25 km de diámetro.
+Resumen: Estructura rusa relacionada con el área del impacto Kara.
+Se investiga si corresponde al mismo evento o a una estructura
+diferenciada.
+Clasificación: Natural, asociada a impacto meteorítico. No
+volcánico.
+
+10. Haughton -- Ártico
+
+Tamaño: 24 km de diámetro.
+Resumen: Cráter de la isla Devon, Canadá, formado hace
+aproximadamente 31 millones de años. Es especialmente conocido por
+su paisaje semejante al de Marte.
+Clasificación: Natural, de impacto meteorítico confirmado. No
+volcánico.
+
+11. El'gygytgyn -- Ártico
+
+Tamaño: 18 km de diámetro.
+Resumen: Cráter de Siberia formado hace aproximadamente 3,58
+millones de años. Actualmente contiene un lago que ocupa parte de
+su depresión.
+Clasificación: Natural, de impacto meteorítico confirmado. No
+volcánico.
+
+12. Avak -- Ártico
+
+Tamaño: 12 km de diámetro.
+Resumen: Estructura situada en Alaska, formada hace
+aproximadamente 100 millones de años y actualmente cubierta por
+materiales geológicos posteriores.
+Clasificación: Natural, catalogada como estructura de impacto. No
+volcánica.
+
+13. Beyenchime-Salaatin -- Ártico
+
+Tamaño: 8 km de diámetro.
+Resumen: Estructura de Siberia asociada a un antiguo impacto. Su
+fecha de formación no se conoce con precisión.
+
+                                                                                                                          4
+                                                                          Space App Challenge - Polos
+
+Clasificación: Natural, catalogada como estructura de impacto. No
+volcánica.
+
+14. Chukcha -- Ártico
+
+Tamaño: 6 km de diámetro.
+Resumen: Pequeña estructura de impacto ubicada en Siberia, con una
+antigüedad estimada inferior a 70 millones de años.
+Clasificación: Natural, catalogada como estructura de impacto. No
+volcánica.
+
+            Polo Sur
+
+Nombre del  Ubicación  Diámetro  Área        Antigüedad
+cráter      Antártida  550km     Aproximada
+                                 237.5832    Entre 34 y
+Ross                             184.7452    23 millones
+                                             de años
+Wilkes Land Antártida  485km     7.8542
+                                             Desconocida
+Bowers      Antártida  100km                 ; se ha
+                                             propuesto
+                                             menos de
+                                             500
+                                             millones de
+                                             años
+
+                                             Desconocida
+
+1. Ross -- Mar de Ross, Antártida
+
+     Diámetro propuesto: 550 km.
+     Área estimada: 237.583 km².
+     Edad propuesta: Oligoceno, entre 34 y 23 millones de años
+
+         atrás.
+     Origen: Desconocido.
+
+                                                                5
+                                                                          Space App Challenge - Polos
+
+Resumen: Ross es una estructura propuesta en la región del mar de
+Ross, en la Antártida. Debido a sus enormes dimensiones, fue
+incluida en algunos catálogos de posibles impactos
+extraterrestres. Sin embargo, no se dispone de pruebas suficientes
+para demostrar que se trate de un cráter meteorítico.
+Clasificación: Natural, de origen no determinado. No está
+confirmado que sea volcánico ni meteorítico
+
+2. Wilkes Land -- Antártida Oriental
+
+     Diámetro propuesto: 485 km, aunque algunas investigaciones
+         estiman unos 500­510 km.
+
+     Área estimada: 184.745 km², utilizando el diámetro de 485 km.
+     Edad: No determinada con certeza.
+     Origen: Posible impacto de un gran asteroide u otros procesos
+
+         geológicos.
+Resumen: Wilkes Land es una enorme anomalía geológica localizada
+debajo de la capa de hielo de la Antártida Oriental. Los
+científicos han observado irregularidades en el relieve, el campo
+gravitatorio y las características geofísicas de la región.
+
+3. Bowers -- Antártida
+
+     Diámetro propuesto: 100 km.
+     Área estimada: 7.854 km².
+     Edad: Desconocida.
+     Origen: No determinado.
+Resumen: Bowers es una estructura situada en la región antártica y
+mencionada en algunos catálogos de posibles impactos. Su forma y
+dimensiones motivaron la hipótesis de que podría estar relacionada
+con el choque de un cuerpo extraterrestre.
+
+Cráteres gemelos / Características
+Similares a los Lunares
+
+                                                                                                                          6
+              Asia y sus cráteres
+
+Paises:
+
+Asia está integrada por 48 países soberanos reconocidos por la ONU (además de
+territorios con reconocimiento limitado y países transcontinentales):
+
+                      Jeokjung­Chogye            Cráter Lunar Análogo:
+                                                 Mersenius C
+
+Ubicación             Provincia de Dornogovi,    Borde occidental de Mare
+Latitud y Longitud    Desierto de Gobi           Serenitatis (Luna)
+Altitud / Elevación   (Mongolia)
+Tamaño y Profundidad
+Edad estimada         44°07' N, 109°39' E        27°45' N, 11°48' E
+Suelo y Geología
+                      ~1.000 a 1.100 m sobre el -2,3 km (respecto al radio
+Pruebas de la NASA
+                      nivel del mar              medio lunar)
+
+                      Diametro: 1,3 km           Diametro: 2,2 a 2,4 km
+
+                      Cresta: 20 a 30 m de altura Profundidad: ~600 m
+
+                      Profundidad: ~200 m
+
+                      Post-Cretácico (entre 150 ~10 a 20 millones de años
+                      y 65 millones de años) (Cráter Copernicano muy
+
+                                                         joven)
+
+                      Suelo desértico hiperárido, Basalto mare lunar
+
+                      brechas de impacto,        cubierto de regolito fino
+
+                      cuarzo chocado y           extremadamente
+
+                      fragmentos de basamento reflectante (alto albedo) y
+
+                      granítico sin vegetación vidrios de impacto.
+
+                      Navegación Robótica:
+                      Pruebas de tracción,
+                      ascenso y descenso de
+                      rovers en pendientes
+                      empinadas (> 20).
+                      Sensores: Calibración de
+                      cámaras, LiDAR y
+                      espectrómetros en terreno
+                      seco y rocoso.
+                      · Muestreo: Ensayos de
+                      recolección de rocas en
+                      crestas de impacto durante
+                      caminatas espaciales
+                      (EVAs).
+
+Fuentes
+
+Ubicación             Condado de Hapcheon, Borde noreste de Mare
+Latitud y Longitud    provincia de Gyeongsang Humorum (Luna)
+Altitud / Elevación   del Sur (Corea del Sur)
+
+Tamaño y Profundidad  35°33' N, 128°16' E         19°48' S, 45°54' O
+
+                      Fondo de cuenca: 30 a 50 -1,8 km (respecto al radio
+
+                      m s.n.m.                    medio lunar)
+
+                      Cresta del borde: 200 a
+
+                      400 m s.n.m
+
+                      Diámetro: ~7,0 km           Diámetro: 14,0 km
+                      Profundidad: ~400 m de      Profundidad: ~1,5 km
+                      relieve (cubierto por >100
+                      m de sedimentos)
+Edad estimada       ~63.000 a 520.000 años                 ~1.000 a 3.000 millones
+Suelo y Geología    (Pleistoceno tardío)                   de años (Período
+Pruebas de la NASA                                         Eratosténico)
+
+Fuentes             Conos de choque (shatter               Basalto volcánico de
+                    cones), brechas de                     mare, mantos de roca
+                    impacto polimicticas,                  fundida por choque
+                    cuarzo con deformación                 (impact melt), mega
+                    planar (PDFs) y capas                  regolito y brechas
+                    sedimentarias                          basálticas.
+
+                    · Instrucción Geológica:
+                    Entrenamiento de
+                    astronautas en la
+                    identificación visual de
+                    shatter cones y rocas
+                    alteradas por impactos de
+                    alta velocidad.
+                    · Travesías a Escala
+                    Real: Simulación de
+                    recorridos de exploración
+                    de larga distancia con
+                    vehículos tripulados.
+                    · Perforación
+                    Subsuperficial: Ensayos
+                    de taladros y tomografía
+                    geofísica para analizar
+                    capas de brechas
+                    enterradas bajo el regolito.
+
+Tabun-Khara-Obo:
+
+Foto del cráter: link
+
+Jeokjung­Chogye:
+
+First finding of impact cratering in the Korean Peninsula
+Crater                  Diametro                            Similar
+Chicxulub (Mexico)      150km
+                                                            Cuenca de Korolev (437km
+campo de cráteres       27x15km 189 crateres de             de diametro 5,43km de
+Bajada del diablo       entre 100 y 400 metros de           profundidad)
+(Argentina)             diametro
+                                                            Similar en la forma de
+Campo del cielo (Argentina) El area de este campo es        terreno a varias zonas de la
+                                         de aprox 20.000km  Luna y en la zona especifica
+                                                            al Mare Imbrium
+
+                                                            Similar a campos de
+                                                            crateres de la luna
+
+Crateres de Rio Cuarto  Area de 50km                        Crater gemelo Messier
+                        40km
+Domo de Araguaihna      4500km2                             Estratosthene
+
+Campos de lava de la                                        Los mares de la Luna son
+Payuina                                                     similares en general a este
+                                                            ambiente, dada
+
+Campos de lava de la    4500km2                             Los mares de la Luna son
+Payuina                                                     similares en general a este
+                                                            ambiente, dada
+Cráteres de Europa
+
+Europa contiene 50 países soberanos según la delimitación geográfica más aceptada (que
+incluye a los estados parcialmente euroasiáticos), aunque la Organización de las Naciones
+Unidas (ONU) reconoce oficialmente a 44 países, y la Unión Europea está integrada por 27
+
+de ellos.
+
+Prompt:
+Actúa como un analista de datos de la NASA. Tu trabajo es buscar todos los lugares dentro
+de Europa que coincidan con las siguientes características geológicas y topográficas:
+
+Superficie de la luna:
+
+     Topografía: cráteres, tierras altas, llanuras, mares lunares (lava solidificada)
+     Geografía: Cristalización de un océano de magma, cuencas y roca pulverizada y
+
+         fragmentada (regolito)
+     Medio ambiente: Exosfera muy tenue, sin atmósfera, no tiene campo magnético,
+
+         recibe radiación solar y micrometeoritos,
+     Amplitud térmica: 120 - (-246) Celsius
+
+Existen estructuras en Europa que actúan como sus análogos helados.
+     (Un análogo helado es un material, proceso o estructura compuesta principalmente de
+         agua congelada u otros hielos volátiles (como amoníaco, metano o dióxido de
+         carbono) que cumple la misma función geológica o física que la roca silicatada o el
+         magma en planetas rocosos como la Tierra o la Luna).
+              En la astrobiología y la geología planetaria, este concepto se utiliza para
+                  explicar cómo funcionan los cuerpos helados del sistema solar exterior (como
+                  Europa, Encelado o Ganímedes).
+
+Análogos a los cráteres Lunares:
+     Cráter Pwyll: Uno de los pocos cráteres de impacto prominentes. Al igual que los
+         cráteres lunares, pulverizó el material circundante creando una zona de regolito de
+         hielo brillante.
+              Ubicación: 25. 2, 271. 4 (región ecuatorial).
+              Diámetro:  26.
+
+     Cuenca Callanish: Es una gran estructura de anillos concéntricos. Ocurrió cuando un
+
+         objeto masivo perforó la capa superior rígida de hielo y llegó a una capa inferior
+         mucho más blanda o líquida, generando fracturas circulares en cadena.
+
+              Ubicación: 16, 334.
+              Diámetro:  100 (estructura total de anillos).
+     Cuenca Tycho: Similar a Callanish, es una cuenca de impacto multi-anillo. Sus
+         fracturas concéntricas muestran el punto exacto donde la litosfera helada colapsó
+         hacia el interior tras el impacto.
+              Ubicación: 1. 7, 141. 2.
+              Diámetro:  140 (zona de anillos).
+
+Análogos a los Mares de Lava:
+     Conamara Chaos: Bloques de corteza de hielo que se fracturaron, flotaron y se
+         volvieron a congelar en una matriz de "criolava" (agua helada). Es lo más cercano en
+         proceso geológico a los maria lunares, sustituyendo la roca basalto por hielo fluido.
+              Coordenadas de referencia: 9. 7, 272. 7
+              Ubicación en el globo: Se encuentra en el hemisferio occidental, justo al norte
+                  del ecuador de Europa y relativamente cerca del célebre cráter Pwyll.
+
+Análogos al Regolito y la Exosfera:
+     Llanuras Ecuatoriales: Las zonas de menor latitud reciben la mayor radiación del
+         cinturón de Júpiter, alterando el hielo superficial y creando una capa delgada de fino
+         polvo de hielo y sales (regolito de hielo), inmerso en su débil exosfera de oxígeno.
+              Coordenadas de referencia: Franja entre 20 y 20 de latitud alrededor del
+                  globo.
+              Ubicación en el globo: Abarca la zona central de la luna, incluyendo áreas
+                  como la cara visible desde Júpiter (sub-Jovian hemisphere) y la cara opuesta
+                  (anti-Jovian hemisphere).
+FUENTES:
+Enlaces oficiales y bases de datos planetarias
+
+     USGS Gazetteer of Planetary Nomenclature
+             Es la base de datos oficial del USGS y la Unión Astronomical
+                Internacional (IAU). Puedes buscar registros individuales como
+                "Conamara Chaos", "Pwyll" o los cráteres lunares para obtener sus
+                coordenadas exactas, diámetros aprobados y mapas cartográficos
+                oficiales.
+
+     NASA Solar System Exploration - Europa
+             Portal de la NASA con resúmenes científicos, datos ambientales,
+                amplitudes térmicas y análisis del océano subsuperficial y la corteza
+                helada de Europa.
+
+     NASA Jet Propulsion Laboratory (JPL) Photojournal
+             Repositorio de la NASA con las imágenes originales capturadas por las
+                sondas Galileo, Voyager y LRO (Luna), detallando la observación de
+                terrenos de caos, picos centrales de cráteres y la exosfera.
+
+     NASA Europa Clipper Mission Page
+             Sitio oficial dedicado a la exploración actual y futura de Europa, con
+                mapas detallados e información sobre sus instrumentos científicos.
+
+     NASA Lunar Reconnaissance Orbiter (LRO)
+             Página de la misión de la NASA dedicada exclusivamente al estudio
+                topográfico, térmico y de regolito de la Luna terrestre.
+
+     Europa Clipper: Exploring Jupiter's Ocean Moon (Mission Overview)
+        YouTube (4:26)
+             Este video de la NASA explica la misión Europa Clipper y cómo sus
+                instrumentos analizarán la corteza de hielo y las estructuras superficiales
+                descritas.
+Principales cráteres en Australia
+
+     Cráter Acraman: Ubicado en Australia Meridional, es uno de los más grandes
+         del continente (unos 90 km de diámetro).
+
+     Cráter Tookoonooka: Situado en Queensland.
+     Cráter Woodleigh: Localizado en Australia Occidental.
+     Cráter de Gosses Bluff: Formado por el impacto de un asteroide hace más de
+
+         140 millones de años en el Territorio del Norte.
+     Cráter Wolfe Creek: Un famoso y muy bien conservado cráter de meteorito en
+
+         Australia Occidental.
+     Cráter Spider: Una singular estructura de deformación por impacto en la
+
+         región de Kimberley (Australia Occidental).
+     Cráteres volcánicos y calderas: Países insulares volcánicos de Oceanía
+
+         --como Nueva Zelanda (con zonas como la caldera de Taupo o los cráteres
+         de Rotorua), Fiyi, Samoa o Papúa Nueva Guinea-- también poseen numerosos
+         cráteres de origen volcánico. [1, 2, 3, 4, 5, 6]
+Crater  Ubicación  Diámetro  Edad  Características
+                                Aproximado      Aproximada       principales y
+                                                                 comparación
+                                                                 con la Luna
+
+Acraman       Australia         90 km           590 millones de  Se formó por el
+Tookoonooka   Meridional                        años             impacto de un
+Woodleigh                                                        asteroide. Es
+Gosses Bluff                                                     muy antiguo y
+                                                                 está
+                                                                 erosionado. Se
+                                                                 puede
+                                                                 comparar con
+                                                                 grandes
+                                                                 cráteres lunares
+                                                                 de impacto.
+
+              Queensland,       55 km           128 millones de  Está enterrado
+              Australia                         años             bajo capas de
+                                                                 rocas y
+                                                                 sedimentos, por
+                                                                 lo que no se
+                                                                 observa
+                                                                 claramente en
+                                                                 la superficie. En
+                                                                 la Luna,
+                                                                 muchos
+                                                                 cráteres son
+                                                                 visibles porque
+                                                                 hay menos
+                                                                 erosión y
+                                                                 acumulación de
+                                                                 sedimentos.
+
+              Australia         60­120 km       364 millones de  Es una
+              Occidental                        años             estructura de
+                                                                 impacto muy
+                                                                 antigua,
+                                                                 cubierta y
+                                                                 modificada por
+                                                                 procesos
+                                                                 geológicos. Su
+                                                                 tamaño se
+                                                                 encuentra
+                                                                 dentro del
+                                                                 rango de
+                                                                 algunos
+                                                                 cráteres lunares
+                                                                 grandes.
+
+              Territorio del    22 km           142 millones de  Tiene un relieve
+              Norte, Australia  (estructura     años             circular central
+                                original                         que quedó
+                                estimada: unos                   después de que
+                                                                 la erosión
+                            20 km)                          eliminara gran
+                                                            parte del borde
+                                                            original. Se
+                                                            parece a los
+                                                            cráteres lunares
+                                                            complejos, que
+                                                            pueden tener
+                                                            elevaciones
+                                                            centrales.
+
+Wolfe Creek  Australia      0,88 km        300.000 años     Es circular,
+             Occidental                    aproximadamen    tiene un borde
+Spider                                     te               elevado y un
+                                                            fondo
+Caldera de                                                  relativamente
+Taup                                                        plano. Está
+                                                            mucho mejor
+                                                            conservado que
+                                                            muchos
+                                                            cráteres
+                                                            terrestres
+                                                            antiguos. Se
+                                                            parece a los
+                                                            cráteres lunares
+                                                            pequeños con
+                                                            forma de
+                                                            cuenco.
+
+             Kimberley,     13 km          Entre 580 y 900  Es una
+             Australia      aproximadamen  millones de      estructura de
+             Occidental     te             años, según      impacto muy
+                                           estimaciones     antigua y
+                                                            erosionada, con
+                                                            evidencia
+                                                            geológica de
+                                                            deformación y
+                                                            elevación
+                                                            central. Permite
+                                                            compararlo con
+                                                            cráteres lunares
+                                                            complejos.
+
+             Nueva Zelanda  Aproximadame   Su gran caldera  Se originó por
+                            nte 35 km      se formó         una enorme
+                                           principalmente   erupción
+                                           hace unos        volcánica y el
+                                           25.500 años      posterior
+                                                            hundimiento del
+                                                            terreno, no por
+                                                            un meteorito. A
+                                                            diferencia de un
+                                                            cráter lunar de
+                                                            impacto, se
+                                                            formó por
+                                                          actividad
+                                                          volcánica.
+
+Caldera de  Nueva Zelanda  22 km          220.000­240.00  Es una gran
+Rotorua                    aproximadamen  0 años          depresión
+                           te                             volcánica
+                                                          ocupada en
+                                                          gran parte por
+                                                          el lago Rotorua.
+                                                          Sirve para
+                                                          comparar las
+                                                          formas
+                                                          circulares,
+                                                          aunque su
+                                                          origen es
+                                                          diferente al de
+                                                          los cráteres
+                                                          lunares.
+
+            Wolfe Creek: más parecido al de la luna. Moltke
+
+            Geometría de tazón simple intacta: Mantiene una estructura simétrica con paredes
+            empinadas que se elevan ~35 metros sobre la llanura circundante y caen ~50 metros hacia
+            el fondo.
+            Terreno extremadamente árido y abrasivo: La combinación de arena de desierto,
+            fragmentos de roca de impacto rica en hierro (shale balls) y cuarcita simula las propiedades
+            mecánicas abrasivas del regolito lunar.
+            Pruebas de inclinación y tracción: Sus pendientes pronunciadas son un entorno ideal
+            para probar el agarre de las ruedas de rovers, la estabilidad contra vuelcos y el consumo
+            energético en ascensos/descensos severos.
+       Categoría          Cifra que                             Qué representa
+                            puede
+                                           Estructuras con evidencia geológica de
+                         sostenerse        impacto.
+                                           Inventariados en África; 172 se clasifican como
+Impacto de          20                     maars (cráteres formados por explosiones
+                                           magmaagua). No incluye todos los cráteres
+meteorito/asteroide confirmados            volcánicos secos.
+
+Volcánicos con lago 220 lagos
+                               volcánicos
+
+20 estructuras de impacto confirmadas
+
+Estructura Dónde está                      Características muy breves
+
+Agoudal     Alto Atlas,  Sitio muy erosionado; se reconoce sobre todo por conos
+            Marruecos    de fractura producidos por impacto.
+
+Amguid      Sahara, Argelia Cráter circular pequeño y bien preservado, de unos 450
+                                      m.
+
+Aorounga Chad            Estructura erosionada de unos 12,6 km; parte de un
+                         grupo de anillos en el Sahara.
+
+Aouelloul Mauritania     Cráter de 390 m y unos 3 millones de años; produjo
+                         vidrio de impacto.
+
+BP          Desierto de Libia Estructura enterrada o erosionada, de unos 2 km; su
+
+                         nombre procede de la exploración petrolera.
+
+Bosumtwi Ghana           Cráter de 10,5 km ocupado por el lago Bosumtwi; se
+                         formó hace ~1,07 millones de años.
+
+Gweni-Fad Chad           Gran estructura muy erosionada, de unos 14 km y edad
+a                        paleozoica probable.
+
+Kalkkop     Sudáfrica    Cráter de 640 m, joven en términos geológicos
+                         (~250.000 años) y relleno de sedimentos.
+
+Kamil       Egipto       Cráter muy reciente y nítido, de 45 m; asociado a
+                         fragmentos de meteorito de hierro.
+
+Kgagodi     Botsuana     Estructura de unos 3,5 km, muy erosionada y antigua.
+
+Luizi       R. D. del Congo Estructura de 17 km, reconocida por evidencias
+                                      minerales de choque.
+Morokweng Sudáfrica        Gran estructura enterrada de ~70 km, formada hace 145
+                           millones de años; conserva restos del impactador.
+
+Nadir       Margen atlántico Cráter submarino de ~9,2 km, de hace ~66 millones de
+
+            de Guinea      años; descubierto mediante datos sísmicos.
+
+Oasis       Desierto de Libia Estructura de unos 18 km, antigua y muy erosionada.
+
+Ouarkziz Argelia           Estructura circular de ~3,5 km en el Sahara occidental
+                           argelino.
+
+Roter       Namibia        Cráter de 2,5 km, rojizo y parcialmente cubierto por
+Kamm                       dunas; ~3,7 millones de años.
+
+Talemzane Argelia          Depresión circular de 1,75 km, de menos de 3 millones
+                           de años.
+
+Tenoumer Mauritania        Cráter de 1,9 km, de ~1,57 millones de años; antes se
+                           discutía si era volcánico.
+
+Tin Bider Argelia          Estructura de 6 km, muy erosionada; se identifica por
+                           deformación de rocas.
+
+Vredefort Sudáfrica        La mayor estructura de impacto conocida en la Tierra:
+                           originalmente ~300 km, formada hace ~2.023 millones
+                           de años.
+
+Algunos cráteres y calderas volcánicos destacados
+
+Aquí el origen es volcánico: erupciones explosivas, interacción magmaagua, o colapso de
+la cima al vaciarse parcialmente una cámara magmática.
+
+     Lugar     Dónde está                     Características y origen
+Ngorongoro  Tanzania
+                           En realidad es una enorme caldera de colapso, no un
+Empakaai    Tanzania       cráter simple; tiene unos 22 km de ancho y paredes
+Olmoti      Tanzania       de unos 610 m.
+Ol Doinyo   Tanzania
+Lengai                     Caldera volcánica con un lago alcalino en el fondo, en
+                           las tierras altas de Ngorongoro.
+
+                           Caldera erosionada del mismo complejo volcánico de
+                           Ngorongoro.
+
+                           Volcán activo con cráter de cumbre; único por sus
+                           lavas de carbonatita, inusualmente ricas en
+                           carbonatos.
+Erta Ale      Depresión de  Volcán escudo basáltico con caldera y cráteres de
+
+              Danakil, Etiopía pozo; famoso por sus lagos de lava.
+
+Dendi / lago  Etiopía       Complejo de caldera doble ocupado por un lago;
+Enyo                        originado por colapso volcánico.
+
+Longonot      Kenia         Gran caldera con un cono interno; ese cono presenta
+                            un cráter circular de ~1,8 km.
+
+Suswa         Kenia         Volcán escudo con caldera de 8 × 12 km y un anillo
+                            de fallas interno poco común.
+
+Nyiragongo    R. D. del Congo Estratovolcán activo con cráter de cumbre de ~1,2
+                                        km; alberga un lago de lava.
+
+Nyamuragira R. D. del Congo Volcán escudo muy activo; su cima está truncada por
+                                                una caldera de unos 2 × 2,3 km.
+
+Lago Nyos Camerún           Lago que llena un maar: cráter explosivo creado al
+                            interactuar magma y agua subterránea.
+
+Trou au       Chad          Gran caldera volcánica del macizo Tibesti, con
+Natron                      depósitos salinos en el fondo.
+
+Kalkkop, Sudáfrica (El único que no ha sido usado por agencias espaciales)
+
+Motivo de selección: La mejor combinación de logística y control: está en una finca privada
+del Karoo semiárido, tiene un anillo crateriforme de ~1,2 km y terreno de baja vegetación.
+Es prometedor para movilidad, topografía, sensores y operaciones repetibles.
+Obstáculo: El cráter está muy relleno y erosionado: es menos fiel a un cráter lunar fresco.
+Requiere acuerdo con el dueño.
+
+Rasgo         Kalkkop, Sudáfrica             Linné, Luna            Similitud
+
+Origen        Impacto meteórico confirmado Impacto meteórico Muy alta
+
+Tipo          Cráter simple, pequeño,        Cráter simple,  Muy alta
+morfológico   circular/ovalado               circular
+inicial
+
+Diámetro      ~1,2 km según la revisión      2,2 km          Alta: misma escala
+              topográfica de 2026; antes se                  de orden kilométrico
+              estimaba ~0,64 km
+Edad       ~250.000 años                   Menos de ~10         Ambos jóvenes
+                                           millones de años     geológicamente,
+Material                                   estimados            pero Linné es
+objetivo                                                        mucho más fresco
+Estado
+actual     Areniscas, lutitas y otras rocas Lavas basálticas Baja­median
+
+Ambiente   sedimentarias del Karoo         de un mare lunar
+
+           Muy erosionado y relleno por    Borde abrupto,       Baja en su estado
+           sedimentos de un paleolago; el  bloques,             actual
+           relieve superficial está        eyecciones y
+           invertido/subsuavizado          flujos de fundido
+                                           de impacto
+                                           preservados
+
+           Semiárido terrestre, gravedad   Vacío, 1/6 de        Baja
+           terrestre, atmósfera y erosión  gravedad, regolito,
+           hídrica/biológica               radiación y sin
+                                           erosión por agua
+                                           o viento
+
+Info Nueva:
+
+Kalkkop es un buen sitio para ensayos de geociencia, navegación y teledetección; no es un
+análogo completo de una base lunar. Su valor está en que es un cráter de impacto pequeño,
+degradado y con un subsuelo muy bien estratificado, no en replicar regolito, vacío, radiación
+o gravedad lunar.
+
+Hay una precisión importante respecto de lo hablado antes: NASA sí mantiene una
+publicación técnica sobre Kalkkop en su repositorio, pero la perforación y la investigación
+fueron patrocinadas por el Servicio Geológico Sudafricano; no encontré evidencia pública de
+que NASA, CONAE, INVAP o VENG hayan operado allí una campaña de pruebas
+espaciales. NASA NTRS
+
+Perfil técnico del sitio
+
+Aspecto                                    Hallazgos
+
+Ubicación  Karoo oriental, provincia de Eastern Cape, Sudáfrica; aproximadamente 51
+           km al sudoeste de GraaffReinet. El lugar está en terreno privado, por lo
+           que cualquier ingreso, medición o instalación requiere permiso del
+           propietario.
+Origen y    Impacto meteórico confirmado, de aproximadamente 250 ± 50 mil años.
+edad        Se reconocieron brechas de impacto y una pequeña componente
+Topografía  meteórica en el material perforado.
+
+Geología    La revisión más reciente redefine la estructura como ovalada, de
+            aproximadamente 1,2 km de diámetro. El anillo visible de carbonatos no
+Relleno     es el borde original: marca el antiguo margen del lago.
+
+Ambiente    El impacto afectó rocas sedimentarias del Supergrupo Karoo --areniscas,
+actual      lutitas y niveles silíceos--. Bajo el relleno hay brechas, cataclasitas y rocas
+            alteradas por choque.
+Recursos
+geológicos  El cráter alojó un paleolago. Se documentan terrazas carbonatadas,
+            depósitos lacustres y hasta unos 90 m de sedimentos en sondeos; por
+Recursos    debajo aparece brecha de impacto.
+logísticos
+            Bioma NamaKaroo: semiárido, con arbustos bajos y pastos, lluvias
+            estivales muy variables. Es más seco y abierto que muchos paisajes
+            terrestres, pero sigue teniendo atmósfera, agua, fauna, vegetación y
+            erosión.
+
+            Ofrece perfiles de impacto, brechas, sedimentos lacustres y carbonatos
+            para muestreo científico. No hay evidencia de recursos que puedan
+            asumirse como explotables ni de agua disponible para una campaña sin
+            una evaluación hidrogeológica específica.
+
+            GraaffReinet es el nodo regional razonable para alojamiento, transporte,
+            víveres y coordinación; no debe suponerse que haya energía,
+            conectividad, caminos internos ni agua en el cráter hasta inspeccionarlos.
+
+La investigación geológica reciente establece el diámetro de ~1,2 km, el carácter erosionado
+y el papel del paleolago. Estudio geomorfológico de Kalkkop. La perforación de 1992
+confirmó el impacto y atravesó relleno, brechas y basamento sedimentario. Estudio de
+testigos.
+
+Qué puede aportar a prácticas espaciales
+
+Actividad posible Aptitud      Qué se probaría
+
+Rover y navegación Alta        Modelos digitales de elevación, localización visual,
+autónoma                       detección de borde, planificación de rutas y retorno
+                               seguro desde el fondo del cráter.
+
+Radar de subsuelo y  Muy alta  Comparar georradar, resistividad, magnetometría y
+geofísica                      gravimetría con testigos ya conocidos: un caso
+                               excelente para entrenar algoritmos que infieren
+                               estratos ocultos.
+Perforación y         Alta        Selección de punto de perforación, obtención de
+                                  núcleos, registro de cadena de custodia, análisis de
+muestreo robótico                 brechas y planificación científica con control remoto.
+
+Fotogrametría y       Alta        Generar un modelo 3D multiescala y contrastarlo
+gemelo digital
+                                  con mediciones terrestres; útil para gemelos digitales
+
+                                  de terreno de misión.
+
+Operaciones de        Media       Ensayar pérdida de línea de vista dentro de una
+comunicaciones                    depresión y posicionamiento de repetidores. La
+                                  escala es limitada para una misión de larga
+                                  distancia.
+
+Sensado               Alta        Validar interpretación de relieve, humedad y cambios
+                                  superficiales con observaciones de campo.
+satelital­terrestre
+
+Entrenamiento EVA     Media­alt Protocolos de observación, toma de muestras,
+geológico
+                      a           documentación y toma de decisiones científicas bajo
+
+                                  tiempo limitado.
+
+Movilidad sobre       Baja        El suelo local no reproduce granulometría, adhesión,
+regolito lunar                    abrasividad ni comportamiento electrostático del
+                                  regolito lunar.
+
+Vacío, radiación,     Nula al     Requiere cámaras de vacío térmico,
+temperaturas lunares  aire libre  fuentes/monitoreo radiológico seguros y sistemas de
+y 1/6 g                           simulación de gravedad.
+
+Cómo podrían participar las capacidades argentinas
+
+No encontré un proyecto de CONAE, INVAP o VENG en Kalkkop. Sí hay capacidades que,
+en teoría y mediante acuerdo internacional, encajan muy bien con un programa de
+caracterización.
+
+     CONAE: sus servicios cubren imágenes y productos geoespaciales, y su marco de
+         aplicaciones incluye geología, mineralogía, hidrología, riesgos y ambiente. Podría
+         aportar metodología de análisis de teledetección y el acceso institucional a
+         productos geoespaciales. Servicios CONAE
+
+     SAOCOM / INVAP: SAOCOM emplea radar SAR polarimétrico de banda L, capaz de
+         observar de día, noche y con nubes; INVAP fue el contratista principal de plataforma,
+         electrónica de radar e integración/ensayos. Sería pertinente para estudiar cambios
+         superficiales, humedad y deformaciones, aunque no sustituye un georradar de
+         subsuelo instalado en el terreno. Misión SAOCOM e INVAP
+
+     VENG: opera el Centro de Misión SAOCOM y comercializa globalmente sus
+         imágenes. Un ensayo podría solicitar y contrastar escenas SAR con mediciones de
+         campo, drones y un modelo 3D del cráter. VENG / SAOCOM
+Propuesta de campaña mínima y de bajo impacto
+
+    1. Obtener consentimiento escrito del propietario y definir un perímetro de trabajo sin
+         remover materiales.
+
+    2. Generar un informe ambiental oficial sudafricano con el sistema nacional de
+         sensibilidad ambiental.
+
+    3. Levantar un modelo 3D con dron, GNSS y fotogrametría; usarlo como "verdad de
+         terreno".
+
+    4. Ejecutar perfiles no invasivos de georradar, resistividad y magnetometría.
+    5. Recolectar datos de rover ligero sobre rutas previamente aprobadas, sin excavación.
+    6. Comparar las mediciones in situ con SAR, óptico y modelos de elevación.
+    7. Sólo después evaluar perforaciones: serían de alto valor científico, pero requieren
+
+         autorizaciones, protocolo de patrimonio geológico y restauración del sitio.
+
+El requisito ambiental no es opcional: Sudáfrica exige una evaluación mediante su
+herramienta nacional de cribado para autorizaciones ambientales, que identifica sensibilidad
+de biodiversidad, patrimonio y otras restricciones. Herramienta oficial. El NamaKaroo es
+seco, pero no es estéril: tiene vegetación, fauna y una variabilidad fuerte ligada a las lluvias.
+SANBI: NamaKaroo.
+
+En síntesis: Kalkkop sería especialmente valioso como laboratorio de cráter degradado y
+subsuelo oculto. La práctica espacial más sólida allí sería una campaña integrada de
+rover, geofísica, muestreo y validación satelital; no un ensayo que pretenda simular por sí
+solo una base lunar completa.
+
+11:40 a.m.
+Resumen de información de todos los cráteres:
+    - https://docs.google.com/document/d/1MpHJX2R0UcRTAqKDRnSDyGnWrBJGUjEi6a
+         b7EtdBkfA/edit?tab=t.0
+    - https://docs.google.com/spreadsheets/d/1V-UJNb1URjtzndk5xDUKU9ofgt_Nxg3Z55
+         358sJZq5Q/edit?gid=1583890552#gid=1583890552
+
+Resumen de información sobre los factores:
+Misiones Análogas Lunares de la
+NASA y Sitios de Prueba Terrestres
+
+Este documento recopila las misiones clave de la NASA que fueron probadas previamente
+en entornos análogos en la Tierra, detallando sus bases terrestres de prueba, los entornos
+lunares que simulan y las fuentes oficiales correspondientes.
+
+1. Programa Apollo (Misiones Apollo 11 a 17)
+
+    Base / Lugar de prueba en la Tierra: Cinder Lake Crater Field y Meteor Crater
+        (Flagstaff, Arizona), campos volcánicos de Mauna Kea y Kilauea (Hawái), y el Cráter
+        Sudbury (Ontario, Canadá).
+
+    Lugar / Entorno análogo en la Luna: Mares lunares y tierras altas (como Mare
+        Tranquillitatis en Apollo 11, la formación Fra Mauro en Apollo 14 y el cráter Descartes
+        en Apollo 16).
+
+    Fuentes oficiales: NASA Technical Reports Server (Science Training History of the
+        Apollo Astronauts) / NASA Science (Behind the Scenes of a NASA Moonwalk in the
+        Arizona Desert).
+
+2. Programa Artemis (Misiones de Superficie y
+Artemis III/IV)
+
+    Base / Lugar de prueba en la Tierra: San Francisco Volcanic Field y Black Point
+        Lava Flow (Arizona), Nevada National Security Site (Nevada), e Isla de Devon (Cráter
+        Haughton, Canadá).
+
+    Lugar / Entorno análogo en la Luna: Región del Polo Sur Lunar, caracterizada por
+        terrenos altamente craterizados, crestas con iluminación rasante (como Connecting
+        Ridge) y bordes de cráteres con regiones en sombra permanente (como el Cráter
+        Shackleton).
+
+    Fuente oficial: NASA Analog Missions (Artemis Ground Testing).
+
+3. Desert RATS / D-RATS (Desert Research and
+Technology Studies)
+
+    Base / Lugar de prueba en la Tierra: Campo de pruebas en Black Point Lava Flow
+        (cerca de Flagstaff, Arizona).
+
+    Lugar / Entorno análogo en la Luna: Basaltos lunares, terrenos irregulares de
+        regolito y áreas colindantes a tubos de lava para pruebas de movilidad con vehículos
+        exploradores (Lunar Terrain Vehicle) y caminatas espaciales simuladas (EVA).
+
+    Fuente oficial: NASA Technical Reports Server (Desert Research and Technology
+        Studies - D-RATS).
+4. NEEMO (NASA Extreme Environment Mission
+Operations)
+
+    Base / Lugar de prueba en la Tierra: Laboratorio submarino Aquarius Reef Base
+        (Cayo Largo, Florida).
+
+    Lugar / Entorno análogo en la Luna: Ambientes de gravedad reducida (1/6 g) para
+        simular operaciones en la superficie lunar, recolección de muestras y uso de
+        herramientas en terrenos complejos.
+
+    Fuente oficial: NASA Technical Reports Server (NEEMO Analog Testing).
+
+5. Misión VIPER (Volatiles Investigating Polar
+Exploration Rover)
+
+    Base / Lugar de prueba en la Tierra: Laboratorio SLOPE (Simulated Lunar
+        Operations Laboratory) en el Centro de Investigación Glenn de la NASA (Ohio) y
+        terrenos volcánicos de Hawái.
+
+    Lugar / Entorno análogo en la Luna: Región montañosa del Polo Sur Lunar
+        (específicamente las cercanías del Cráter Nobile), orientada a la prospección de hielo
+        de agua en regiones de sombra permanente.
+
+    Fuentes oficiales: NASA (VIPER Mission Testing at SLOPE Lab) / NASA Technical
+        Reports Server (VIPER Overview).
+Fuentes:
+
+Programa Apollo:
+    - https://ntrs.nasa.gov/api/citations/20190026783/downloads/20190026783.pdf
+    - https://science.nasa.gov/missions/artemis/behind-the-scenes-of-a-nasa-moonwalk-in
+         -the-arizona-desert/
+
+Programa Artemis:
+    - https://www.nasa.gov/analog-missions/
+
+Desert RATS:
+    - https://ntrs.nasa.gov/citations/20210014298
+
+NEEMO:
+    - https://ntrs.nasa.gov/api/citations/20150019627/downloads/20150019627.pdf
+
+Mission VIPER:
+    - https://www.nasa.gov/wp-content/uploads/2015/02/aerospace-frontiers-may-2020.pdf
+Factores Clave para la Creación de una
+Base Lunar Permanente
+
+Este documento consolida los factores críticos requeridos para el establecimiento y
+desarrollo de una base lunar permanente, basados en la síntesis y análisis técnico de datos
+obtenidos de las fuentes espaciales y misiones análogas.
+
+1. Caracterización Topográfica y Geológica del
+Terreno
+
+    Topografía y altimetría de precisión: Determinación de rugosidad, elevación y
+        pendientes para la selección de sitios seguros de aterrizaje y construcción.
+        Fuente: NASA PDS Imaging Node & NASA Space Apps Challenge 2026
+
+    Geología y mecánica del suelo: Caracterización de materiales de superficie,
+        densidad de cráteres y propiedades mecánicas para cimentaciones de infraestructura.
+        Fuente: NASA Space Apps Challenge 2026
+
+    Estructuras subterráneas (Tubos de lava y cuevas): Evaluación del subsuelo para
+        aprovechamiento como refugios naturales contra amenazas del entorno.
+        Fuente: NASA Space Apps Challenge 2026
+
+2. Prospección de Recursos e Iluminación
+
+    Mapeo de Hielo y Permafrost (ISRU): Localización de agua congelada y volátiles en
+        zonas en sombra permanente para su procesamiento.
+        Fuente: NASA Analog Missions & NASA Planetary Data System (PDS)
+
+    Condiciones térmicas y de iluminación: Análisis de la exposición solar constante
+        en picos de luz eterna para generación de energía y resistencia a temperaturas
+        extremas.
+        Fuente: NASA Space Apps Challenge 2026 & NASA Earthdata
+
+3. Protección Ambiental y Habitabilidad
+
+    Mitigación y dinámica del polvo: Control de procesos de erosión, abrasión de trajes
+        y toxicidad del regolito lunar.
+        Fuente: NASA Analog Missions & NASA Space Apps Challenge 2026
+
+    Protección contra la radiación espacial: Monitoreo y desarrollo de blindajes frente
+        a partículas solares y rayos cósmicos.
+        Fuente: NASA Analog Missions (NSRL)
+
+    Control de atmósferas hostiles y descompresión: Sistemas de prueba en cámaras
+        de presión para evitar la enfermedad de descompresión en paseos espaciales.
+        Fuente: NASA Analog Missions
+
+4. Factores Humanos y Bioseguridad
+
+    Sistemas de soporte de vida en aislamiento y confinamiento: Evaluación de
+        dinámicas de grupo, salud mental y comportamiento bajo aislamiento extremo.
+        Fuente: NASA Analog Missions (HERA / CHAPEA)
+
+    Respuesta del cuerpo a campos de gravedad reducida: Contramedidas
+        biomédicas para contrarrestar los efectos fisiológicos de la baja gravedad y el
+        desequilibrio vestibular.
+        Fuente: NASA Analog Missions (ARGOS / Kraken / :envihab)
+    Extremófilos y biosignaturas: Estudio de habitabilidad y comportamiento biológico
+        en ambientes extremos.
+        Fuente: NASA Space Apps Challenge 2026
+
+5. Despliegue Tecnológico, Logística y Transporte
+
+    Operaciones robóticas y navegación en superficie: Pruebas de movilidad,
+        autonomía e instrumental en entornos análogos de la Tierra.
+        Fuente: NASA Analog Missions & NASA Space Apps Challenge 2026
+
+    Sistemas de propulsión y transporte de carga: Desarrollo de vehículos lanzadores
+        y etapas de acceso espacial hacia la base.
+        Fuente: VENG S.A.
+
+    Infraestructura satelital y sensores espaciales: Diseño e integración de sistemas
+        satelitales para soporte de observación y telecomunicaciones.
+        Fuente: INVAP
+
+Worldview
+
+Nasa's planetary data system
+access to observation of the moon and mars
+Lunar reconnaissance orbital data can give info about Lunar topography
+Data from other Agencies can expand info further
+Find unexpected places
+invent new ways?
+Nuestro objetivo es encontrar sitios lo más parecido a la Luna para hacer base de pruebas
+lunares. Para lograrlo llevaremos a cabo una extensiva búsqueda y analisis de datos.
+
+    - Analisis de datos
+    - Comparación con misiones para instalar base lunares.
+
+              - Misiones previas
+
+Roles:
+Analisis de datos
+
+    - Requisitos para crear una base lunar (Mati Petit)
+    - Recursos (Marin)
+    - Tipos de experimentos dentro de bases lunares (Beeg Mati)
+    - Data que busca recopilar la NASA?
+    - Organizar los datos ya obtenidos (Tina)
+    - Factores alternativos afectando el lugar de la base (Boezio)
+
+              - Rutas aéreas
+              - Infraestructura
+              - Estatales o privadas
+
+Nuestro resultado final: Sitio Web con varias pestañas y secciones para presentar nuestro
+proyecto.
+
+    - diseños 3D
+    - Imágenes
+    - textos y fuentes
+
+    - https://pds.nasa.gov/data/pds4/releases/geo/artemis2_mission-20261007/
+    - https://pds-geosciences.wustl.edu/missions/artemis2/index.htm
+    - https://pds.nasa.gov/
+
+Info Marin: Recursos necesarios para el proyecto
+Una base lunar requiere una infraestructura y recursos técnicos específicos para
+garantizar la supervivencia, el resguardo frente al entorno hostil y el desarrollo de
+pruebas científicas o tecnológicas.
+
+Según los lineamientos de agencias como la NASA y estudios de la BBC News
+Mundo, una base lunar para pruebas espaciales debe contar con los siguientes
+recursos y sistemas fundamentales:
+
+1. Energía y Suministro Eléctrico
+
+     Fuentes híbridas: Combinación de paneles solares (ubicados
+         preferentemente en los polos lunares para aprovechar la luz continua) y
+         reactores nucleares compactos capaces de generar kilovatios o megavatios
+         constantes. [1, 2, 3]
+     Almacenamiento masivo: Baterías de alta capacidad para soportar las
+         noches lunares, que duran aproximadamente dos semanas terrestres sin luz
+         solar. [1]
+
+2. Hábitat y Protección Física
+
+     Estructuras blindadas o enterradas: Módulos inflables o rígidos cubiertos
+         con regolito lunar (el suelo del satélite) para proteger a las tripulaciones y
+         equipos de la radiación cósmica, los rayos solares y el impacto de
+         micrometeoritos. [1, 2, 3]
+
+     Control ambiental (ECLSS): Sistemas de soporte vital para regular la
+         presión, reciclar el aire, depurar el dióxido de carbono y mantener la
+         climatización frente a temperaturas extremas (que oscilan entre los 120 °C de
+         día y -120 °C o menos de noche). [1, 2]
+
+     Esclusas de aire (airlocks): Cámaras de presurización para el ingreso y
+         salida de astronautas y la transferencia de materiales sin perder la atmósfera
+         interna. [1]
+
+3. Recursos Críticos (Agua y Alimentos)
+
+     Extracción de agua: Ubicación cercana a zonas como el Polo Sur lunar para
+         la extracción de hielo de agua presente en los cráteres, indispensable para
+         consumo y producción de combustible (hidrógeno y oxígeno). [1]
+
+     Sistemas de reciclaje y agricultura: Tecnologías de circuito cerrado para
+         reciclar más del 90 % del agua, junto con sistemas hidropónicos o cultivos
+         experimentales en suelo lunar. [1, 2]
+
+4. Logística, Transporte y Comunicaciones
+
+     Plataformas de aterrizaje y despegue: Zonas pavimentadas o
+         acondicionadas (por ejemplo, con materiales consolidados como el hormigón
+         lunar de la ESA) para evitar la proyección dañina de polvo lunar (ejecta)
+         durante el arribo de naves. [1]
+
+     Vehículos de exploración y telerrobótica: Rovers terrestres y drones para
+         el transporte de carga, reconocimiento del terreno y realización de pruebas
+         remotas. [1, 2, 3]
+
+     Redes de comunicación y navegación: Antenas y satélites locales que
+         garanticen el enlace continuo con la Tierra y la coordinación de operaciones
+         en la superficie. [1, 2]
+
+5. Manufactura e Investigación In Situ (ISRU)
+ Procesamiento de materiales locales: Capacidades para extraer metales,
+    silicio y oxígeno directamente del regolito para construir herramientas,
+    repuestos o componentes estructurales en el lugar. Puedes consultar más
+    detalles sobre el mapa de materias primas en el Estudio Geológico y gráfico
+    de Xataka.
+
+ Laboratorios de pruebas: Espacios dedicados a ensayar hardware espacial,
+    resistencia de materiales y simulaciones de viajes hacia destinos como Marte
+Una base lunar es una instalación diseñada para que los astronautas puedan vivir,
+trabajar, investigar y explorar la Luna durante períodos prolongados. Para funcionar,
+debe contar con módulos habitables, energía, agua, oxígeno, comunicaciones y
+sistemas de protección frente al ambiente lunar.
+
+¿Cómo está conformada una base lunar?
+
+1. Componentes principales
+
+1. Módulos habitables
+
+Son los espacios presurizados donde viven los astronautas. Incluyen dormitorios,
+cocina, baños, zonas de descanso y áreas de trabajo.
+
+2. Sistema de energía
+
+Utiliza paneles solares, baterías y posiblemente otras fuentes de energía, como
+reactores nucleares compactos, para mantener funcionando la base.
+3. Sistemas de soporte vital
+
+Proporcionan oxígeno, regulan la temperatura, eliminan el dióxido de carbono y
+reciclan el agua para que los astronautas puedan sobrevivir.
+
+4. Laboratorios y vehículos
+
+Permiten analizar rocas, estudiar el suelo lunar, realizar experimentos científicos y
+transportar a los astronautas por la superficie.
+
+5. Protección ambiental
+
+Incluye blindaje contra la radiación, protección contra micrometeoritos, aislamiento
+térmico y estructuras que soportan el vacío y los cambios extremos de temperatura.
+Se podría utilizar suelo lunar, llamado regolito, como protección adicional.
+
+6. Comunicaciones y logística
+
+Incluye antenas, computadoras, enlaces con la Tierra, sistemas de navegación y
+zonas de aterrizaje para recibir suministros, equipos y tripulaciones.
+
+2. ¿Qué otras instalaciones necesita?
+
+     Invernaderos: para cultivar alimentos y estudiar el crecimiento de plantas.
+     Depósitos de agua y oxígeno: para almacenar recursos esenciales.
+     Talleres de reparación: para mantener vehículos, herramientas y equipos.
+     Sistemas de extracción de recursos: para investigar cómo obtener agua del
+
+         hielo lunar y producir oxígeno a partir de materiales locales.
+     Esclusas de aire: para que los astronautas puedan entrar y salir sin
+
+         despresurizar los módulos habitables.
+
+3. ¿Cómo sería construirla?
+
+Una base lunar podría desarrollarse por etapas:
+    1. Preparación del terreno: seleccionar un lugar adecuado y desplegar robots.
+    2. Instalación de energía: colocar paneles solares y sistemas de
+         almacenamiento.
+    3. Construcción de módulos: enviar hábitats, laboratorios y equipos.
+    4. Instalación de soporte vital: poner en marcha los sistemas de agua, oxígeno y
+         control térmico.
+    5. Llegada de los astronautas: comenzar las investigaciones y ampliar la base
+         gradualmente.
+
+En resumen: una base lunar es mucho más que un edificio en la Luna. Es un
+sistema integrado que debe producir y administrar energía, mantener a las personas
+con vida, protegerlas del ambiente espacial y permitirles realizar investigaciones
+científicas. La mayoría de estas características corresponden a diseños y proyectos
+de desarrollo; una base lunar permanente plenamente operativa todavía no existe.
+
+El área necesaria para construir una base lunar depende de cuántos astronautas
+vivirán en ella, cuánto tiempo permanecerán y qué instalaciones tendrá.
+
+¿Qué superficie necesitaría una base lunar?
+
+Como estimación conceptual, se podrían considerar estas dimensiones:
+
+Tipo de base lunar              Área aproximada del terreno
+
+Pequeña, para 2­4 astronautas   1.000­5.000 m²
+
+Mediana, para 4­8 astronautas   5.000­20.000 m²
+
+Grande, para 10­20 astronautas  20.000­100.000 m²
+
+Estas cifras son orientativas para planificar el terreno, no medidas oficiales de una
+base ya construida.
+
+Ejemplo: una base para 4 astronautas
+
+Podrías diseñar una base de 100 m × 100 m = 10.000 m², equivalente a una
+hectárea.
+
+El terreno podría distribuirse entre:
+
+     Módulos habitables y laboratorio: 1.000 m².
+     Paneles solares y almacenamiento de energía: 2.000 m².
+     Zona de vehículos y operaciones: 2.000 m².
+     Protección, circulación y futuras ampliaciones: 5.000 m².
+Importante: los módulos presurizados ocuparían solo una parte del terreno. La
+superficie total depende principalmente de los paneles solares, las distancias de
+seguridad, la zona de aterrizaje y la protección frente al polvo lunar.
+1. Bajada del Diablo (Patagonia, Argentina)
+
+     Región: Patagonia central (Chubut)
+     Viabilidad: Muy recomendable para rovers, habitabilidad análoga y
+
+         pruebas geotécnicas.
+     Por qué destaca: Su terreno árido, pedregoso y con basaltos expuestos
+
+         simula de forma sobresaliente la topografía abrasiva de los cráteres y
+         mares lunares. Cuenta con un espacio aéreo extremadamente
+         despejado (tráfico comercial casi nulo) que facilita la gestión de
+         restricciones de vuelo (NOTAMs), además de una densidad demográfica
+         prácticamente nula en cientos de la redonda que ofrece óptimos
+         márgenes de seguridad.
+
+2. Campos de lava de La Payunia (Patagonia / Mendoza, Argentina)
+
+     Región: Norte de la Patagonia / Sur de Mendoza
+     Viabilidad: Altamente recomendable para análogos lunares
+
+         visuales/geológicos y pruebas de movilidad.
+     Por qué destaca: Ofrece uno de los campos volcánicos y coladas de
+
+         lava basáltica más extensos y visualmente fieles a los mares lunares de
+         todo el hemisferio sur. Al igual que Bajada del Diablo, el espacio aéreo y
+         el aislamiento geográfico son idóneos para misiones análogas
+         terrestres y ensayos de resistencia de materiales y trajes espaciales.
+         (Nota: Su uso se restringe exclusivamente a pruebas científicas y de
+         superficie no invasivas debido a su estatus de área protegida).
+
+3. Cráter Acraman (Oceania / Australia Meridional)
+
+     Región: Oceanía (Gawler Ranges, South Australia)
+     Viabilidad: Altamente recomendable como análogo árido remoto para
+
+         sistemas robóticos.
+     Por qué destaca: Con unos 90 km de diámetro, este gigantesco cráter
+
+         ubicado en el interior desértico australiano ofrece un aislamiento
+         absoluto. El tráfico aéreo es nulo y la densidad demográfica es
+         inexistente, lo que simplifica al máximo la autorización de polígonos
+         experimentales y el ensayo de rovers pesados en condiciones de calor y
+         aridez extremas.
+
+4. Cráter Woodleigh (Oceania / Australia Occidental)
+
+     Región: Oceanía (Carnarvon Basin, Western Australia)
+     Viabilidad: Altamente recomendable para pruebas de rovers y sistemas
+
+         autónomos.
+     Por qué destaca: Situado en una vasta región de estancias ganaderas
+
+         con interferencia humana mínima, presenta condiciones ideales para
+         simular el aislamiento operativo de una base de superficie planetaria. Su
+         espacio aéreo superior está completamente despejado para la
+         coordinación de pruebas tecnológicas avanzadas.
+
+5. Cráter Wolfe Creek (Oceania / Australia Occidental)
+
+     Región: Oceanía (Edge of Great Sandy / Tanami Deserts)
+     Viabilidad: Altamente recomendable para investigación científica y
+
+         pruebas robóticas pasivas.
+     Por qué destaca: Es uno de los cráteres de impacto mejor conservados
+
+         y más nítidos del planeta, con una geometría circular perfecta y un
+         entorno desértico que replica de manera impecable el regolito y los
+         bordes de impacto lunares. Su aislamiento en el interior australiano
+         garantiza total privacidad y baja congestión aeronáutica para misiones
+         de campo tecnológicas.
+       Actividades en la luna y data que se busca
+
+             Mecánica del suelo y Regolito
+                     Data: Granulometría, densidad de empaquetamiento, cohesión,
+                         ángulo de fricción y abrasividad
+                     Objetivo: Diseñar ruedas de rovers, herramientas de corte y
+                         calzado de trajes espaciales que resistan el desgaste sin perder
+                         tracción
+
+             Estratigrafía y Geofísica
+                     Data: Perfiles de velocidad sísmica, permitividad dieléctrica del
+                         subsuelo y densidad de capas de brechas
+                     Objetivo: Probar algoritmos de interpretación de radar de
+                         subsuelo para encontrar depósitos de agua helada y cavidades
+                         subterráneas en la luna.
+
+             Rendimiento de Sensores
+                     Data: Nivel de ruido e interferencia en cámaras, LiDAR y
+                         espectrómetros expuestos a polvo y luz directa.
+                     Objetivo: Calibrar los sistemas de visión de rovers autónomos
+                         antes de su integración final en la nave.
+
+             Factores Humanos y Soporte Vital
+             Comunicaciones y Redes
+
+Para garantizar el éxito de una misión lunar a largo plazo y seleccionar el sitio
+análogo terrestre ideal, las actividades operativas se dividen en simulaciones
+con tripulación humana (EVA), pruebas robóticas autónomas y experimentos
+de caracterización in situ (ISRU). La recopilación de datos no solo valida la
+tecnología de exploración, sino que establece los límites de resistencia del
+soporte vital, la movilidad en terreno hostil y la precisión de la prospección
+geofísica.
+
+Actividades y Ejercicios Operativos en la Base Lunar
+
+1. Actividades Extravehiculares (EVAs) y Geología de Campo
+     Identificación y Muestreo Geológico: Entrenamiento de astronautas
+        en la identificación visual de estructuras formadas por presiones
+        extremas, como conos de choque (shatter cones), brechas de impacto
+        polimícticas y material fundido por impacto (impact melt).
+    
+     Travesías a Escala Real: Recorridos a pie y en vehículos tripulados
+        atravesando terrenos de alta inclinación (> 20), bordes de cráteres y
+        fondos de cuencas para evaluar consumo metabólico, desgaste físico y
+        protocolos de seguridad en caminatas espaciales.
+
+    
+     Operación con Trajes Presurizados: Evaluación de la movilidad
+
+        articular, alcance manual y destreza fina en tareas de recolección de
+        rocas, uso de herramientas mecánicas e instalación de instrumentación
+        científica.
+    
+2. Ensayos Robóticos y Movilidad de Rovers
+     Navegación en Pendientes y Superficies Abrasivas: Pruebas de
+        tracción, fricción, ascenso y descenso en paredes empinadas de
+        cráteres para prevenir vuelcos y medir el consumo energético de rovers
+        sobre superficies de baja cohesión.
+    
+     Mapeo Autónomo y Telerrobótica: Calibración de sensores de
+        navegación autónoma, cámaras de alta resolución, sistemas LiDAR y
+        espectrómetros en entornos secos, rocosos y desestructurados.
+    
+     Navegación a Ciegas y Pérdida de Señal: Simulación de pérdida de
+        línea de visión (Line-of-Sight) en depresiones profundas para probar
+        algoritmos de retorno autónomo seguro e instalación de repetidores de
+        comunicación local.
+    
+3. Geofísica Subsuperficial y Perforación
+     Extracción de Núcleos (Core Sampling): Ensayos de taladros
+        mecánicos robóticos y manuales para recuperar muestras de subsuelo
+        a distintas profundidades sin contaminar las capas inferiores.
+    
+     Prospección del Subsuelo: Despliegue de Georradar (GPR),
+        tomografía de resistividad eléctrica, sismómetros y gravimetría para
+        mapear capas enterradas, estructuras de brechas y posibles
+        acumulaciones de hielo o volátiles.
+    
+4. Utilización de Recursos In Situ (ISRU) y Construcción
+     Procesamiento de Regolito: Ensayos de separación mineral y
+        extracción térmica de volátiles u oxígeno a partir de material análogo.
+    
+     Mitigación y Manejo de Polvo (Ejecta): Evaluación de la erosión
+        producida por propulsores de aterrizaje y prueba de métodos de
+        sinterización o pavimentación de plataformas de alunizaje para evitar
+        que el polvo proyectado dañe la base.
+
+    
+     Blindaje Estructural: Pruebas de recubrimiento de módulos inflables o
+
+        rígidos con regolito como protección térmica y radiológica.
+    
+
+Información y Datos Críticos a Recopilar por la NASA
+
+Categoría de      Parámetros Específicos      Objetivo de la
+Datos             a Medir                     Recopilación
+
+Mecánica del      Granulometría, densidad     Diseñar ruedas de
+Suelo y Regolito  de empaquetamiento,         rovers, herramientas
+                  cohesión, ángulo de         de corte y calzado de
+                  fricción y abrasividad.     trajes espaciales que
+                                              resistan el desgaste
+                                              sin perder tracción.
+
+Estratigrafía y   Perfiles de velocidad       Validar algoritmos de
+Geofísica         sísmica, permitividad       interpretación de
+                  dieléctrica del subsuelo y  radar de subsuelo
+                  densidad de capas de        para localizar
+                  brechas.                    depósitos de agua
+                                              helada y cavidades
+                                              subterráneas.
+Rendimiento de  Nivel de ruido e                                  Calibrar los sistemas
+Sensores        interferencia en cámaras,                         de visión de rovers
+                LiDAR y espectrómetros                            autónomos antes de
+                expuestos a polvo y luz                           su integración final
+                directa.                                          en la nave.
+
+Factores        Tasa metabólica, niveles                          Dimensionar la
+Humanos y       de estrés, consumo de  ,                          autonomía de los
+Soporte Vital                                                     sistemas de soporte
+                                                               2  vital (ECLSS) y
+                                                                  ajustar las rutinas de
+                producción de  y fatiga                           trabajo diario.
+
+                                                 2
+
+                neuromuscular en
+                simulaciones prolongadas.
+
+Comunicaciones  Pérdida de potencia de                            Diseñar la topología
+y Redes         señal por atenuación del                          de la red de antenas
+                terreno, dispersión en                            y repetidores
+                bordes rocosos y latencia                         necesarios para
+                simulada.                                         mantener enlace
+                                                                  constante con el
+                                                                  centro de control.
+
+Requisitos Físicos del Sitio Análogo Terrestre
+
+Para que el lugar seleccionado satisfaga las necesidades operativas
+descritas, debe cumplir con cuatro condiciones geofísicas clave:
+
+    1. Topografía de Cráter Complejo o Simple: Presencia de una cuenca
+        definida con paredes empinadas (> 20) y borde elevado para simular
+        el comportamiento dinámico de los cráteres lunares.
+
+    2.
+    3. Geología de Impacto o Volcánica Árida: Abundancia de roca
+        fragmentada, brechas, basaltos o sedimentos secos extremadamente
+        abrasivos que repliquen la respuesta mecánica del regolito.
+
+    4.
+    5. Subsuelo Estratificado Conocido: Un terreno cuya composición
+
+        profunda esté bien documentada (mediante perforaciones previas) para
+        contrastar y validar la precisión de las lecturas del Georradar (GPR).
+    6.
+    7. Depresión con Aislamiento de Radiofrecuencia: Un relieve que
+        permita simular sombras de comunicación (Line-of-Sight) y evaluar la
+        gestión robótica autónoma.
+    8.
+
+Registro de Fuentes y Mapeo de Datos
+
+     Notas del Desafío Space Apps Challenge (Archivo del Proyecto):
+     
+
+             Datos extraídos: Parámetros topográficos y geológicos de los
+                cráteres analizados (Jeokjung­Chogye, Wolfe Creek, Kalkkop,
+                Haughton, entre otros).
+
+            
+             Datos extraídos: Ensayos de movilidad en pendientes empinadas
+
+                (> 20), pruebas de sensorización (LiDAR, cámaras,
+                espectrómetros), instrucción geológica de astronautas en shatter
+                cones y simulación de travesías a escala real.
+            
+             Datos extraídos: Requerimientos de infraestructura para hábitats
+                (ECLSS, esclusas de aire, blindaje por regolito, plataformas de
+                aterrizaje para control de ejecta e ISRU).
+            
+     NASA NTRS (NASA Technical Reports Server) & PDS (Planetary
+        Data System):
+     
+
+             Datos extraídos: Métodos de caracterización de suelos análogos
+                de regolito lunar, calibración de radar de subsuelo (GPR) e
+                interacción de carga electrostática del polvo lunar.
+
+            
+     USGS Gazetteer of Planetary Nomenclature & NASA LRO (Lunar
+
+        Reconnaissance Orbiter):
+ 
+
+         Datos extraídos: Dimensiones, profundidad y morfología de
+            referencia de cráteres lunares y sus contrapartes terrestres.
+
+        
+ Estudios de Geociencias y Geomorfología de Impactos
+
+    (ScienceDirect / Journal of African Earth Sciences):
+ 
+
+         Datos extraídos: Estructura geológica de brechas, firmas
+            geofísicas subsuperficiales y registros de perforaciones previas
+            en estructuras de impacto simples y complejas.
+
