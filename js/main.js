@@ -16,17 +16,17 @@ const lazy = (selector, loader, rootMargin = '600px') => {
 };
 
 // Contenido (secciones de texto con interacciones simples)
-import('./sections.js?v=1794697630').then((m) => m.init(document)).catch((e) => console.error('[fronteras] sections', e));
+import('./sections.js?v=1794699108').then((m) => m.init(document)).catch((e) => console.error('[fronteras] sections', e));
 
 // Hero + intro arrancan de inmediato
-import('./hero.js?v=1794697630').then((m) => m.init(document.getElementById('hero-stage'))).catch((e) => console.error('[fronteras] hero', e));
+import('./hero.js?v=1794699108').then((m) => m.init(document.getElementById('hero-stage'))).catch((e) => console.error('[fronteras] hero', e));
 
 // Naves: capa global
-import('./ships.js?v=1794697630').then((m) => m.init(document.getElementById('ships-layer'))).catch((e) => console.error('[fronteras] ships', e));
+import('./ships.js?v=1794699108').then((m) => m.init(document.getElementById('ships-layer'))).catch((e) => console.error('[fronteras] ships', e));
 
 // Módulos pesados: al acercarse
-lazy('#worlds-app', () => import('./worlds.js?v=1794697630'));
-lazy('#base-app', () => import('./base.js?v=1794697630'));
+lazy('#worlds-app', () => import('./worlds.js?v=1794699108'));
+lazy('#base-app', () => import('./base.js?v=1794699108'));
 
 // ---------- Nav ----------
 const nav = document.getElementById('nav');

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fronteras Galácticas — El video</title>
+  <meta name="description" content="El video de Fronteras Galácticas: los lugares de la Tierra que más se parecen a la Luna. Equipo La LUNA · NASA Space Apps Challenge 2026.">
+  <meta name="theme-color" content="#05060A">
+  <meta property="og:title" content="Fronteras Galácticas — El video">
+  <meta property="og:type" content="video.other">
+  <meta property="og:url" content="https://fronterasgalacticas.becode.com.ar/video/">
+  <meta property="og:image" content="https://fronterasgalacticas.becode.com.ar/video/poster.jpg">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tokens.css?v=1794699108">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; background: var(--void); color: var(--paper); font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+    body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background-image: radial-gradient(rgba(236,232,223,.07) 1px, transparent 1px); background-size: 32px 32px; }
+    a { color: inherit; }
+    :focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+    .bar { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 20px var(--gutter);
+      font-family: var(--font-mono); font-size: 12px; letter-spacing: .18em; text-transform: uppercase; }
+    .bar a { text-decoration: none; display: inline-flex; gap: 10px; align-items: center; }
+    .bar a:hover { color: var(--signal); }
+    .bar svg { width: 22px; height: 22px; }
+    main { max-width: 1280px; margin: 0 auto; padding: clamp(16px, 4vw, 48px) var(--gutter) 64px; }
+    .code { display: inline-flex; gap: 10px; align-items: center; font-family: var(--font-mono); font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--signal); margin: 0 0 16px; }
+    .code::before { content: ""; width: 28px; height: 1px; background: currentColor; }
+    h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(40px, 7vw, 88px); line-height: .98; margin: 0 0 28px; }
+    h1 em { color: var(--sun); }
+    .monitor { position: relative; border: 1px solid var(--line); background: #000; padding: clamp(6px, 1vw, 12px); }
+    .monitor::before, .monitor::after { content: ""; position: absolute; width: 14px; height: 14px; border: solid var(--signal); }
+    .monitor::before { top: -1px; left: -1px; border-width: 1px 0 0 1px; }
+    .monitor::after { bottom: -1px; right: -1px; border-width: 0 1px 1px 0; }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; }
+    .meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; margin-top: 14px;
+      font-family: var(--font-mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--dust); }
+    .meta .rec::before { content: "● "; color: var(--signal); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+    .btn { display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border: 1px solid var(--line-strong); text-decoration: none;
+      font-family: var(--font-mono); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; transition: background .25s, color .25s, border-color .25s; }
+    .btn:hover { border-color: var(--paper); }
+    .btn--signal { background: var(--signal); border-color: var(--signal); color: var(--void); }
+    .btn--signal:hover { background: var(--paper); border-color: var(--paper); }
+    footer { padding: 32px var(--gutter); border-top: 1px solid var(--line); font-family: var(--font-mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--dust); text-align: center; }
+  </style>
+</head>
+<body>
+  <header class="bar">
+    <a href="/" aria-label="Volver a Fronteras Galácticas">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#ECE8DF" stroke-width="1.2"/><path d="M12 3a9 9 0 0 0 0 18 6.5 9 0 0 1 0-18Z" fill="#ECE8DF"/><circle cx="19.5" cy="5" r="1.6" fill="#FF5B1F"/></svg>
+      Fronteras Galácticas
+    </a>
+    <span style="color: var(--telemetry)">Transmisión · La LUNA</span>
+  </header>
+  <main>
+    <p class="code">NASA Space Apps Challenge 2026 · Equipo La LUNA</p>
+    <h1>La Luna, <em>acá nomás</em></h1>
+    <div class="monitor">
+      <video controls playsinline preload="metadata" poster="poster.jpg?v=1794699108" src="fronteras-galacticas.mp4?v=1794699108">
+        Tu navegador no puede reproducir el video. <a href="fronteras-galacticas.mp4">Descargalo acá</a>.
+      </video>
+    </div>
+    <div class="meta">
+      <span class="rec">Señal desde la Tierra</span>
+      <span>1080p · Con sonido</span>
+      <span style="color: var(--telemetry)">384.400 km → 0 km</span>
+    </div>
+    <div class="actions">
+      <a class="btn btn--signal" href="/#atlas">Explorar el sitio</a>
+      <a class="btn" href="fronteras-galacticas.mp4" download>Descargar MP4</a>
+    </div>
+  </main>
+  <footer>Fronteras Galácticas · NASA Space Apps Challenge 2026</footer>
+</body>
+</html>

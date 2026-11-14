@@ -1,0 +1,7 @@
+{
+  "name": "fg-video",
+  "private": true,
+  "type": "module",
+  "scripts": { "render": "node render.mjs", "shots": "node shots.mjs", "audio": "node audio.mjs" },
+  "dependencies": {"puppeteer-core":"^25.17.0"}
+}

@@ -128,3 +128,6 @@ body::before {
 /* ---------- Footer ---------- */
 .footer { padding: 48px var(--gutter); border-top: 1px solid var(--line); font-family: var(--font-mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--dust); }
 .footer__inner { max-width: var(--max); margin: 0 auto; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; }
+
+.nav__links a.nav__video { color: var(--signal); }
+.nav__links a.nav__video:hover { color: var(--paper); }
